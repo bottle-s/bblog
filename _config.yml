@@ -122,15 +122,15 @@ favicons: # Favicons are also used in the manifest file. Syntax is 'size: path'
 # 9. Site navigation
 navigation_header:
 - title: Home
-  url: /
+  url: /bblog
 - title: Elements
-  url: /elements/
+  url: /bblog/elements/
 - title: Blog
-  url: /blog/
+  url: /bblog/blog/
 - title: Categories
-  url: /categories/
+  url: /bblog/categories/
 - title: Search
-  url: /search/
+  url: /bblog/search/
 - title: Contact
   url: https://github.com/daviddarnes/alembic
 
