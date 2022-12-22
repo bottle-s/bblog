@@ -27,29 +27,29 @@ nav_exclude:                                            # The following paths ar
 author:
   name              : 최병철
   image             : "./assets/me.jpeg"
-  behance           : your_username
+#  behance           : your_username
 # dribbble          : your_username
   email             : bcchoi0202@gmail.com
-  facebook          : your_username
+#  facebook          : your_username
   github            : bcchoi0202
 # gitlab            : your_username
 # instagram         : bcchoi0202
 # kaggle            : your_username
   linkedin          : bcchoi0202
-  medium            : your_username
+#  medium            : your_username
 # soundcloud        : your_username
 # spotify           : your_username
 # stackoverflow     : your_user_id
 # tumblr            : your_username.tumblr.com
 # twitch            : your_username
-  twitter           : your_username
+#  twitter           : your_username
 # vimeo             : your_username
 # youtube           : your_channel_name
 # keybase           : your_username
 
 
 ### Posts ###
-permalink: /bblog/:title
+permalink: blog/:title
 
 
 ### Collections ###
