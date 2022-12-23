@@ -95,20 +95,20 @@ social:
   links: # An array of links to social media profiles
 
 # Analytics
-analytics:
-  provider               : false # false (default), "google", "google-universal", "google-gtag", "custom"
-  google:
-    tracking_id          :
-    anonymize_ip         : # true, false (default)
+#analytics:
+#  provider               : false # false (default), "google", "google-universal", "google-gtag", "custom"
+#  google:
+#    tracking_id          :
+#    anonymize_ip         : # true, false (default)
 
 
 # Site Author
 author:
-  name             : "Your Name"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
-  email            :
+  name             : "최병철"
+  avatar           : "/assets/image/me.jpeg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "Android Developer"
+  location         : "South Korea"
+  email            : "bcchoi0202@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -140,7 +140,7 @@ footer:
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url:
+      url: "https://github.com/bcchoi0202"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
@@ -149,7 +149,7 @@ footer:
       # url:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url:
+      url: "https://instagram.com/bcchoi0202"
 
 
 # Reading Files
