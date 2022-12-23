@@ -6,8 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3dafdd20-4567-43f2-8363-2a398f987a16" name="Changes" comment="change jekyll theme">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/head.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/head.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/main.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +62,7 @@
       <updated>1671683575235</updated>
       <workItem from="1671683576768" duration="1704000" />
       <workItem from="1671685362925" duration="8634000" />
-      <workItem from="1671751827641" duration="6690000" />
+      <workItem from="1671751827641" duration="7306000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1671687235582</created>
@@ -170,7 +169,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671757623541</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="change jekyll theme">
+      <created>1671759923194</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1671759923194</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
