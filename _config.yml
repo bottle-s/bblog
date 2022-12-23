@@ -14,7 +14,7 @@ remote_theme           : "mmistakes/minimal-mistakes@4.24.0"
 minimal_mistakes_skin    : "dirt" #"default" "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "ko-KR"
+locale                   : "en-US"
 title                    : "BBlog"
 title_separator          : "|"
 subtitle                 : "이것저것 끄적끄적✍"
