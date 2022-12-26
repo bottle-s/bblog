@@ -1,5 +1,5 @@
 ---
-title: "[modern-resume-theme]: github page 이력서 만들기 (feat. jekyll, modern-resume-theme)"
+title: "\[modern-resume-theme\]: github page 이력서 만들기 (feat. jekyll, modern-resume-theme)"
 categories:
   - jekyll-theme
 tags:
