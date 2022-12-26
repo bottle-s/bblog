@@ -3,7 +3,7 @@ main:
   - title: "About Me"
     url: https://bcchoi0202.github.io/r/
   - title: "Posts"
-    url: /category-archive-grid/
+    url: /year-archive/
   - title: "Sample Collections"
     url: /collection-archive/
   - title: "Sitemap"
