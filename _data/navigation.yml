@@ -4,8 +4,8 @@ main:
     url: https://bcchoi0202.github.io/r/
   - title: "Posts"
     url: /categories/
-  - title: "Sample Collections"
-    url: /collection-archive/
+  - title: "Tags"
+    url: /tags/
   - title: "Sitemap"
     url: /sitemap/
   - title: "Quick-Start Guide"
