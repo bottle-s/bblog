@@ -1,11 +1,12 @@
 ---
-title: "'[modern-resume-theme]': github page 이력서 만들기 (feat. jekyll, modern-resume-theme)"
+title: "[modern-resume-theme]: github page 이력서 만들기 (feat. jekyll, modern-resume-theme)"
 categories:
-  - jekyll
+  - jekyll-theme
 tags:
   - jekyll
   - theme
   - resume
+  - github 이력서
 ---
 
 Android 개발자 이력서 작성을 위하여 github page를 만들기로 결심하고, 개발자 이력서를 여기저기 찾아 헤메였다.  
