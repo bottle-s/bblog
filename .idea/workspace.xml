@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3dafdd20-4567-43f2-8363-2a398f987a16" name="Changes" comment="change jekyll theme" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="793901ba-a4f2-47ad-977e-88d41f4ebc09" />
+        <option name="url" value="https://github.com/bcchoi0202/bblog.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2JFpEldloDhiqft8P0ihugRsR5o" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/git_workspace/bblog/assets/image&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;ruby.rails.projectView.checked&quot;: &quot;true&quot;,
+    &quot;ruby.structure.view.model.defaults.configured&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\git_workspace\bblog\assets\image" />
+      <recent name="D:\git_workspace\bblog\_sass" />
+      <recent name="D:\git_workspace\bblog\assets" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\git_workspace\bblog" />
+      <recent name="D:\git_workspace\bblog\docs" />
+    </key>
+  </component>
+  <component name="RubyModuleManagerSettings">
+    <option name="blackListedRootsPaths">
+      <list>
+        <option value="$PROJECT_DIR$" />
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="bblog" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="bblog" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3dafdd20-4567-43f2-8363-2a398f987a16" name="Changes" comment="" />
+      <created>1671683575235</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1671683575235</updated>
+      <workItem from="1671683576768" duration="1704000" />
+      <workItem from="1671685362925" duration="8634000" />
+      <workItem from="1671751827641" duration="7941000" />
+      <workItem from="1671761172929" duration="165000" />
+      <workItem from="1671761349554" duration="77000" />
+      <workItem from="1671761435375" duration="7863000" />
+      <workItem from="1671780525406" duration="1989000" />
+      <workItem from="1672009344676" duration="3524000" />
+    </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <created>1671687235582</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1671687235582</updated>
+    </task>
+    <task id="LOCAL-00002" summary="add url /bblog">
+      <created>1671687886490</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1671687886490</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add url /bblog">
+      <created>1671688646291</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1671688646291</updated>
+    </task>
+    <task id="LOCAL-00004" summary="change jekyll theme">
+      <created>1671690633344</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1671690633344</updated>
+    </task>
+    <task id="LOCAL-00005" summary="change jekyll theme">
+      <created>1671693687787</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1671693687787</updated>
+    </task>
+    <task id="LOCAL-00006" summary="change jekyll theme">
+      <created>1671693992746</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1671693992746</updated>
+    </task>
+    <task id="LOCAL-00007" summary="change jekyll theme">
+      <created>1671694341495</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1671694341495</updated>
+    </task>
+    <task id="LOCAL-00008" summary="change jekyll theme">
+      <created>1671694567640</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1671694567640</updated>
+    </task>
+    <task id="LOCAL-00009" summary="change jekyll theme">
+      <created>1671694808030</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1671694808030</updated>
+    </task>
+    <task id="LOCAL-00010" summary="change jekyll theme">
+      <created>1671695477683</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1671695477683</updated>
+    </task>
+    <task id="LOCAL-00011" summary="change jekyll theme">
+      <created>1671695635539</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1671695635539</updated>
+    </task>
+    <task id="LOCAL-00012" summary="change jekyll theme">
+      <created>1671753496449</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1671753496449</updated>
+    </task>
+    <task id="LOCAL-00013" summary="change jekyll theme">
+      <created>1671754015770</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1671754015770</updated>
+    </task>
+    <task id="LOCAL-00014" summary="change jekyll theme">
+      <created>1671755238778</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1671755238778</updated>
+    </task>
+    <task id="LOCAL-00015" summary="change jekyll theme">
+      <created>1671757623541</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1671757623541</updated>
+    </task>
+    <task id="LOCAL-00016" summary="change jekyll theme">
+      <created>1671759923194</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1671759923194</updated>
+    </task>
+    <task id="LOCAL-00017" summary="change jekyll theme">
+      <created>1671760529451</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1671760529451</updated>
+    </task>
+    <task id="LOCAL-00018" summary="change jekyll theme">
+      <created>1671761731271</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1671761731271</updated>
+    </task>
+    <task id="LOCAL-00019" summary="change jekyll theme">
+      <created>1671762135132</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1671762135132</updated>
+    </task>
+    <task id="LOCAL-00020" summary="change jekyll theme">
+      <created>1671762254806</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1671762254806</updated>
+    </task>
+    <task id="LOCAL-00021" summary="change jekyll theme">
+      <created>1671762691959</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1671762691959</updated>
+    </task>
+    <task id="LOCAL-00022" summary="change jekyll theme">
+      <created>1671763122225</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1671763122225</updated>
+    </task>
+    <task id="LOCAL-00023" summary="change jekyll theme">
+      <created>1671763361280</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1671763361280</updated>
+    </task>
+    <task id="LOCAL-00024" summary="change jekyll theme">
+      <created>1671763381699</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1671763381699</updated>
+    </task>
+    <task id="LOCAL-00025" summary="change jekyll theme">
+      <created>1671770044716</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1671770044716</updated>
+    </task>
+    <task id="LOCAL-00026" summary="change jekyll theme">
+      <created>1671770094067</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1671770094067</updated>
+    </task>
+    <task id="LOCAL-00027" summary="change jekyll theme">
+      <created>1671770110925</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1671770110925</updated>
+    </task>
+    <task id="LOCAL-00028" summary="change jekyll theme">
+      <created>1671772024833</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1671772024833</updated>
+    </task>
+    <task id="LOCAL-00029" summary="change jekyll theme">
+      <created>1671773422109</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1671773422109</updated>
+    </task>
+    <task id="LOCAL-00030" summary="change jekyll theme">
+      <created>1671780632207</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1671780632207</updated>
+    </task>
+    <task id="LOCAL-00031" summary="change jekyll theme">
+      <created>1671780966556</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1671780966556</updated>
+    </task>
+    <task id="LOCAL-00032" summary="change jekyll theme">
+      <created>1671780981552</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1671780981552</updated>
+    </task>
+    <task id="LOCAL-00033" summary="change jekyll theme">
+      <created>1671781287803</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1671781287803</updated>
+    </task>
+    <task id="LOCAL-00034" summary="change jekyll theme">
+      <created>1671781320966</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1671781320966</updated>
+    </task>
+    <task id="LOCAL-00035" summary="change jekyll theme">
+      <created>1671781429876</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1671781429876</updated>
+    </task>
+    <task id="LOCAL-00036" summary="change jekyll theme">
+      <created>1671781720857</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1671781720857</updated>
+    </task>
+    <task id="LOCAL-00037" summary="change jekyll theme">
+      <created>1671782487434</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1671782487434</updated>
+    </task>
+    <task id="LOCAL-00038" summary="change jekyll theme">
+      <created>1672010746959</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1672010746959</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.gemspec" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial commit" />
+    <MESSAGE value="add url /bblog" />
+    <MESSAGE value="change jekyll theme" />
+    <option name="LAST_COMMIT_MESSAGE" value="change jekyll theme" />
+  </component>
+</project>
