@@ -26,3 +26,23 @@ Android 개발자 이력서 작성을 위하여 github page를 만들기로 결�
 <br>
 위의 tree 대로 푸시를 하고 일정시간 기다린 뒤 github page를 새로고침 해보면 나면 테마가 적용된 페이지가 보인다.  
 
+필자는 환경 설정을 할 수 없는 상황이라 push 후 업데이트 확인을 반복하였는데, 로컬에서 테스트를 할 수 있으니 [jekyll local test](https://docs.github.com/ko/enterprise-server@3.6/pages/setting-up-a-github-pages-site-with-jekyll/testing-your-github-pages-site-locally-with-jekyll) 페이지를 참조하여 해보시기 바란다.  
+
+
+무튼, 기본적인 셋업은 끝났고.. 본격적인 페이지 작성을 시작한다.  
+기본 설정은 우리가 github에 push 한 코드 중 _config.yml 파일을 열어보면 된다.  
+<br>
+기본적으로 주석이 꼼꼼하게 달려있어서 작성하기는 정말 쉬운편이다.
+- Social links
+  - 각 소셜미디어의 id를 적어주면 된다. 적지 않으면 해당 소셜미디어는 비활성화 된다. 
+- Additional icon links
+  - 사용자가 추가할 임의의 링크 및 아이콘을 추가한다. 필자는 별도의 사이트를 운영하지 않았기 때문에(보잘것 없기 때문에) 추가하지 않았다.
+- About Section
+  - '나'에 대한 정보를 표시하는 섹션으로, 타이틀과 프로필 이미지, 그리고 나를 소개하는 컨텐츠 등을 업데이트 할 수 있다.
+- content
+  - 이후 섹션은 표기하고 싶은 항목에 따라 구분지어서 사용할 수 있다.
+  - 다들 그렇듯, 필자는 Skill-stack, Experience, Education, In ordinary days 등으로 구분지어 작성하였다.
+
+편하게 사용하고자 한다면, 필자의 [github](https://github.com/bcchoi0202/r)에 업로드 되어있는 _config.yml 파일을 참고하여 수정한다면 더욱 간단하게 사용할 수 있을 것이다.
+    
+
