@@ -41,12 +41,20 @@ sidebar:
   * 사용 기술 스택  
     * <mark>Kotlin</mark> <mark>Kotlin DSL</mark> <mark>Retrofit</mark> <mark>Glide</mark> <mark>rxJava</mark> <mark>LiveData</mark> <mark>View/DataBinding</mark> <mark>Jetpack AAC</mark> <mark>Jetpack Compose</mark> <mark>Hilt</mark> <mark>MVVM</mark> <mark>Firebase</mark> <mark>AppsFlyer</mark>
 
-#### 프로젝트 구조도
+#### 전체 프로젝트 구조도
 <img src = "https://user-images.githubusercontent.com/79304650/190574117-7981a179-188d-496d-8f7a-113d196dad02.png" width="288px" height="512px" />
-- Architecture : Clean-Architecture & MVVM
-- DI Module : HIlt
-- Build Script : Kotlin DSL
-- 
-  
-  <img src="https://github.com/bcchoi0202/bblog/blob/main/assets/projects/danal/1.jpg?raw=true" width="20%"> <img src="https://github.com/bcchoi0202/bblog/blob/main/assets/projects/danal/2.jpg?raw=true" width="20%">  
-  <img src="https://github.com/bcchoi0202/bblog/blob/main/assets/projects/danal/3.jpg?raw=true" width="20%"> <img src="https://github.com/bcchoi0202/bblog/blob/main/assets/projects/danal/4.jpg?raw=true" width="20%"> <img src="https://github.com/bcchoi0202/bblog/blob/main/assets/projects/danal/5.jpg?raw=true" width="20%"> <img src="https://github.com/bcchoi0202/bblog/blob/main/assets/projects/danal/6.jpg?raw=true" width="20%"> <img src="https://github.com/bcchoi0202/bblog/blob/main/assets/projects/danal/7.jpg?raw=true" width="20%">
+
+<br>
+
+#### 다모음 앱 메인 (등록 결제 수단)
+<img src="https://github.com/bcchoi0202/bblog/blob/main/assets/projects/danal/1.jpg?raw=true" width="20%"> <img src="https://github.com/bcchoi0202/bblog/blob/main/assets/projects/danal/2.jpg?raw=true" width="20%"> <img src="https://github.com/bcchoi0202/bblog/blob/main/assets/projects/danal/3.jpg?raw=true" width="20%">
+
+<br>
+
+#### 다모음 앱 결제(취소) 내역 및 포인트 충전
+<img src="https://github.com/bcchoi0202/bblog/blob/main/assets/projects/danal/4.jpg?raw=true" width="20%"> <img src="https://github.com/bcchoi0202/bblog/blob/main/assets/projects/danal/5.jpg?raw=true" width="20%"> <img src="https://github.com/bcchoi0202/bblog/blob/main/assets/projects/danal/6.jpg?raw=true" width="20%"> 
+
+<br>
+
+#### 다모음 앱 결제(취소) 상세
+<img src="https://github.com/bcchoi0202/bblog/blob/main/assets/projects/danal/7.jpg?raw=true" width="20%">
