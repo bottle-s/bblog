@@ -3,7 +3,6 @@ title: "Bixolon"
 excerpt: "Baz Boom design system including logo mark, website design, and branding applications."
 classes: wide
 number: 2
-sort_by: number
 sidebar:
   - title: "Role"
     image: https://github.com/bcchoi0202/bblog/blob/main/assets/projects/bixolon/bixolon_ci-removebg-preview.png?raw=true

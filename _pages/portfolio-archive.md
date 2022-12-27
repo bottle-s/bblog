@@ -5,6 +5,7 @@ permalink: /portfolio/
 collection: portfolio
 entries_layout: grid
 classes: wide
+sort_by: number
 ---
 
 재직 회사 별 포트폴리오입니다.  

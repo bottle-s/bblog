@@ -3,7 +3,6 @@ title: "Danal"
 excerpt: "My portfolio in Danal Corp."
 classes: wide
 number: 4
-sort_by: number
 sidebar:
   - title: "Role"
     image: https://github.com/bcchoi0202/bblog/blob/main/assets/projects/danal/danal_ci-removebg-preview.png?raw=true

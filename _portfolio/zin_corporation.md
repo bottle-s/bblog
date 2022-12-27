@@ -3,7 +3,6 @@ title: "Zin corp"
 excerpt: "Baz Boom design system including logo mark, website design, and branding applications."
 classes: wide
 number: 1
-sort_by: number
 
 sidebar:
   - title: "Role"
