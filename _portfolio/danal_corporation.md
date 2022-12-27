@@ -21,9 +21,8 @@ sidebar:
 - 직급 : 과장
 - 개발인원 : 2명 
 
-<br>
 #### 1. Damoum App 서비스 소개
- Danal 통합 결제 서비스 (휴대폰 및 페이코인 결제 / 포인트(다모음캐시) 충전 및 결제 / 교회 헌금 계좌이체 / 다날 배터리카드 발급 및 관리 등)
+ Danal 통합 결제 서비스 (휴대폰 및 페이코인 결제 / 포인트 충전 및 결제 / 헌금 계좌이체 / 카드 발급 및 관리 등)
   - 기간 : 2022.03 ~ 현재
   - 역할 : 신규 기능 추가 및 유지보수, Refactoring
   - Play Store : https://play.google.com/store/apps/details?id=kr.danal.app.damoum
@@ -44,10 +43,10 @@ sidebar:
     * <mark>Kotlin</mark> <mark>Kotlin DSL</mark> <mark>Retrofit</mark> <mark>Glide</mark> <mark>rxJava</mark> <mark>LiveData</mark> <mark>View/DataBinding</mark> <mark>Jetpack AAC</mark> <mark>Jetpack Compose</mark> <mark>Hilt</mark> <mark>MVVM</mark> <mark>Firebase</mark> <mark>AppsFlyer</mark>
 
   <img src = "https://user-images.githubusercontent.com/79304650/190574117-7981a179-188d-496d-8f7a-113d196dad02.png" width="288px" height="512px" />
-  <img src = "assets/projects/danal/1.jpg" width="288px" height="512px" />
-  <img src = "assets/projects/danal/2.jpg" width="30%" alt="프로젝트 이미지"/>
-  <img src = "assets/projects/danal/3.jpg" width="30%" alt="프로젝트 이미지"/>
-  <img src = "assets/projects/danal/4.jpg" width="30%" alt="프로젝트 이미지"/>
-  <img src = "assets/projects/danal/5.jpg" width="30%" alt="프로젝트 이미지"/>
-  <img src = "assets/projects/danal/6.jpg" width="30%" alt="프로젝트 이미지"/>
-  <img src = "assets/projects/danal/7.jpg" width="30%" alt="프로젝트 이미지"/>
+  <img src = "/assets/projects/danal/1.jpg" width="288px" height="512px" />
+  <img src = "/assets/projects/danal/2.jpg" width="30%" alt="프로젝트 이미지"/>
+  <img src = "/assets/projects/danal/3.jpg" width="30%" alt="프로젝트 이미지"/>
+  <img src = "/assets/projects/danal/4.jpg" width="30%" alt="프로젝트 이미지"/>
+  <img src = "/assets/projects/danal/5.jpg" width="30%" alt="프로젝트 이미지"/>
+  <img src = "/assets/projects/danal/6.jpg" width="30%" alt="프로젝트 이미지"/>
+  <img src = "/assets/projects/danal/7.jpg" width="30%" alt="프로젝트 이미지"/>
