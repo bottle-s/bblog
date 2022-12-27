@@ -1,6 +1,7 @@
 ---
 title: "Danal"
 excerpt: "My portfolio in Danal Corp."
+thumbnail: /assets/image/projects/danal/1.png?raw=true
 classes: wide
 number: 4
 sidebar:
