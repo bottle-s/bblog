@@ -1,12 +1,9 @@
 ---
 title: "Baz Boom Identity"
 excerpt: "Baz Boom design system including logo mark, website design, and branding applications."
-header:
-  image: /assets/images/unsplash-gallery-image-1.jpg
-  teaser: assets/images/unsplash-gallery-image-1-th.jpg
 sidebar:
   - title: "Role"
-    image: https://www.rainusbiz.com/ko/wp-content/uploads/sites/2/2021/10/Rewriting-History_pre.jpg
+    image: /assets/projects/rainus/rainus_ci.png
     image_alt: "logo"
     text: "Android Developer"
   - title: "Responsibilities"

@@ -1,13 +1,10 @@
 ---
 title: "Danal"
 excerpt: "My portfolio in Danal Corp."
-header:
-  image: /assets/images/unsplash-gallery-image-1.jpg
-  teaser: assets/images/unsplash-gallery-image-1-th.jpg
 classes: wide
 sidebar:
   - title: "Role"
-    image: https://www.danal.co.kr/ci/logo_RGB_danal.jpg
+    image: /assets/projects/danal/danal_ci.png
     image_alt: "logo"
     text: "Android Developer"
   - title: "Responsibilities"
