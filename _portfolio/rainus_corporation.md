@@ -6,9 +6,9 @@ header:
   teaser: assets/images/unsplash-gallery-image-1-th.jpg
 sidebar:
   - title: "Role"
-    image: http://placehold.it/350x250
+    image: https://www.rainusbiz.com/ko/wp-content/uploads/sites/2/2021/10/Rewriting-History_pre.jpg
     image_alt: "logo"
-    text: "Designer, Front-End Developer"
+    text: "Android Developer"
   - title: "Responsibilities"
     text: "Reuters try PR stupid commenters should isn't a business model"
 gallery:

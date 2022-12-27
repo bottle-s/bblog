@@ -1,12 +1,12 @@
 ---
-title: "Fizz Bang Identity"
-excerpt: "Fizz Bang design system including logo mark, website design, and branding applications."
+title: "Baz Boom Identity"
+excerpt: "Baz Boom design system including logo mark, website design, and branding applications."
 header:
-  image: /assets/images/unsplash-gallery-image-2.jpg
-  teaser: assets/images/unsplash-gallery-image-2-th.jpg
+  image: /assets/images/unsplash-gallery-image-1.jpg
+  teaser: assets/images/unsplash-gallery-image-1-th.jpg
 sidebar:
   - title: "Role"
-    image: http://placehold.it/350x250
+    image: http://www.zin.co.kr/data/file/44/2826836997_yM29Dkdt_5b343c092a5f0b6c3edfeda6a0525a58a8580612.png
     image_alt: "logo"
     text: "Designer, Front-End Developer"
   - title: "Responsibilities"
