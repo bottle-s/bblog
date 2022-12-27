@@ -3,7 +3,7 @@ title: "Baz Boom Identity"
 excerpt: "Baz Boom design system including logo mark, website design, and branding applications."
 sidebar:
   - title: "Role"
-    image: /assets/projects/bixolon/bixolon_ci.png
+    image: https://github.com/bcchoi0202/bblog/blob/main/assets/projects/bixolon/bixolon_ci-removebg-preview.png?raw=true
     image_alt: "logo"
     text: "Designer, Front-End Developer"
   - title: "Responsibilities"
