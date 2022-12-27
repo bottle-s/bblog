@@ -306,5 +306,5 @@ defaults:
       type: portfolio
     values:
       layout: single
-      author_profile: false
-      share: true
+      author_profile: true
+      share: false
