@@ -4,7 +4,7 @@ excerpt: "My portfolio in Danal Corp."
 classes: wide
 sidebar:
   - title: "Role"
-    image: /assets/projects/danal/danal_ci.png
+    image: https://github.com/bcchoi0202/bblog/blob/main/assets/projects/danal/danal_ci.PNG?raw=true
     image_alt: "logo"
     text: "Android Developer"
   - title: "Responsibilities"
