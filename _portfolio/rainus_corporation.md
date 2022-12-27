@@ -2,8 +2,8 @@
 title: "Rainus"
 excerpt: "Baz Boom design system including logo mark, website design, and branding applications."
 classes: wide
-sort_by: number
 number: 3
+sort_by: number
 sidebar:
   - title: "Role"
     image: https://github.com/bcchoi0202/bblog/blob/main/assets/projects/rainus/rainus_ci-removebg-preview.png?raw=true

@@ -2,8 +2,9 @@
 title: "Zin corp"
 excerpt: "Baz Boom design system including logo mark, website design, and branding applications."
 classes: wide
-sort_by: number
 number: 1
+sort_by: number
+
 sidebar:
   - title: "Role"
     image: https://github.com/bcchoi0202/bblog/blob/main/assets/projects/zin/zin_ci-removebg-preview.png?raw=true
