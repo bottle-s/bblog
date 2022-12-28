@@ -27,7 +27,7 @@ sidebar:
 Bixolon 모바일프린터를 이용한 결제 Application
 
 * 기간 : 2020. 01 ~ 2020.10
-* 역할 : 구조 설계 및 개발
+* 역할 : 설계 및 개발
 * Play Store : https://play.google.com/store/apps/details?id=com.bixolon.icpay
 
 **주요 업무 및 성과**
@@ -53,7 +53,7 @@ Bixolon 모바일프린터를 이용한 결제 Application
 
 * 기간 : 2020.04 ~ 2020.07(McDonald's)  
         2020.12 ~ 2021.03(Lotte GRS)
-* 역할 : 구조 설계 및 개발
+* 역할 : 설계 및 개발
 * Play Store : https://play.google.com/store/apps/details?id=com.bixolon.icpay
 
 **주요 업무 및 성과**
@@ -77,7 +77,7 @@ Bixolon 모바일프린터를 이용한 결제 Application
 Web 환경에서 각종 설정 및 인쇄 컨텐츠 추가 등을 지원하는 Printer 제어용 Sdk
 
 * 기간 : 2019.05 ~ 2019.12
-* 역할 : 프로젝트 설계 및 개발
+* 역할 : 설계 및 개발
 * Play Store : https://play.google.com/store/apps/details?id=com.bixolon.mprintserver
 
 **주요 업무 및 성과**
@@ -134,7 +134,7 @@ Web 환경에서 각종 설정 및 인쇄 컨텐츠 추가 등을 지원하는 P
 Android Native 환경에서 각종 설정 및 인쇄 컨텐츠 추가 등을 지원하는 Label Printer 제어용 Sdk
 
 * 기간 : 2018.03 ~ 2021.03
-* 역할 : 추가 기능 개발 및 개선, 리팩토링
+* 역할 : 신규 기능 개발 및 개선, 리팩토링
 
 **주요 업무 및 성과**
 * Bixolon Label Printer Android SDK 개발 및 유지보수
