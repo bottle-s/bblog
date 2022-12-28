@@ -2,7 +2,7 @@
 title: "Zin corp"
 excerpt: "Zin corp 프로젝트 상세 내역"
 header:
-  teaser: /assets/image/projects/zin/1.png
+  teaser: assets/projects/zin/1.png
 classes: wide
 number: 1
 sidebar:

@@ -2,7 +2,7 @@
 title: "Bixolon"
 excerpt: "Bixolon 프로젝트 상세 내역"
 header:
-  teaser: ../assets/image/projects/bixolon/1.png
+  teaser: assets/projects/bixolon/1.png
 classes: wide
 number: 2
 sidebar:
