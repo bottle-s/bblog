@@ -119,7 +119,7 @@ Web 환경에서 각종 설정 및 인쇄 컨텐츠 추가 등을 지원하는 P
 ![image](https://user-images.githubusercontent.com/81198740/120915809-ced56e80-c6e0-11eb-8442-de53eacb2b7e.png)
 
 ##### 인쇄 라벨 디자인
-![image](https://play-lh.googleusercontent.com/PMjqQ8ZBTWbZtVhAohee55Ivg-BPqnazLe0cBJYwovntp-OcHiOZ6TR0XQpnOdlPxM2r=w2560-h1440-rw)
+<img src="https://play-lh.googleusercontent.com/PMjqQ8ZBTWbZtVhAohee55Ivg-BPqnazLe0cBJYwovntp-OcHiOZ6TR0XQpnOdlPxM2r=w2560-h1440-rw" width="200px">
 ![image](https://user-images.githubusercontent.com/81198740/120915823-e3b20200-c6e0-11eb-8e59-79b4ab5da91e.png) 
 ![image](https://user-images.githubusercontent.com/81198740/120915814-d39a2280-c6e0-11eb-87a7-edfca14e3f70.png)
 
