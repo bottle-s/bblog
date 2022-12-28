@@ -7,11 +7,11 @@ header:
 classes: wide
 number: 4
 sidebar:
-  - title: "Role"
+  - title: "역할"
     image: https://github.com/bcchoi0202/bblog/blob/main/assets/projects/danal/danal_ci-removebg-preview.png?raw=true
     image_alt: "logo"
     text: "Android Developer"
-  - title: "Responsibilities"
+  - title: "주요 업무"
     text: "신규 기능 추가 및 유지보수, Refactoring"
 ---
 
@@ -26,7 +26,7 @@ sidebar:
 ##### 1. Damoum App 서비스 소개  
  Danal 통합 결제 서비스 (휴대폰 및 페이코인 결제 / 포인트 충전 및 결제 / 헌금 계좌이체 / 카드 발급 및 관리 등)
   - 기간 : 2022.03 ~ 현재
-  - 역할 : 신규 기능 추가 및 유지보수, Refactoring
+  - 역할 : 신규 기능 추가 및 개선, 리팩토링
   - Play Store : https://play.google.com/store/apps/details?id=kr.danal.app.damoum
   
   **주요 업무 및 성과**

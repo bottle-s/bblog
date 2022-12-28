@@ -6,11 +6,11 @@ header:
 classes: wide
 number: 3
 sidebar:
-  - title: "Role"
+  - title: "역할"
     image: https://github.com/bcchoi0202/bblog/blob/main/assets/projects/rainus/rainus_ci-removebg-preview.png?raw=true
     image_alt: "logo"
     text: "Android Developer"
-  - title: "Responsibilities"
+  - title: "주요 업무"
     text: "Rainus Player 신규 기능 개발 및 Front-end 개발"
 ---
 
@@ -18,8 +18,8 @@ sidebar:
 [Rainus](https://www.rainusbiz.com "라인어스")
 - 근무기간 : 2021.07 ~ 2022.02 (8개월)
 - 포지션 : Android Developer
-- 근무부서 : 솔루션개발팀
 - 직급 : 대리
+- 근무부서 : 솔루션개발팀
 - 개발인원 : 2명 (Android 2)
 
 #### 담당 프로젝트
