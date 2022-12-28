@@ -38,13 +38,13 @@ sidebar:
   * 사용 기술 스택
     * <mark>Kotlin</mark> <mark>Retrofit</mark> <mark>Glide</mark> <mark>rxJava</mark> <mark>LiveData</mark> <mark>View/DataBinding</mark> <mark>Koin</mark> <mark>MVVM</mark> <mark>Javascript</mark> <mark>Css</mark>
 
-##### 프로젝트 스크린샷 부재로 실제 매장 설치 및 운용 사례로 대체
+###### 프로젝트 스크린샷 부재로 실제 매장 설치 및 운용 사례로 대체
 
-##### 올리브영 '올영 P!ck' 컨텐츠 재생 
+###### 올리브영 '올영 P!ck' 컨텐츠 재생 
 <img src="https://www.rainusbiz.com/ko/wp-content/uploads/sites/2/2021/04/7ceb8d3f69000590bd09af896100cbbc-1200x900.png" width="20%">
 
-##### BMW 삼성전시장 차량 검색 및 광고 컨텐츠 재생
+###### BMW 삼성전시장 차량 검색 및 광고 컨텐츠 재생
 <img src="https://github.com/bcchoi0202/bblog/blob/main/assets/projects/rainus/2.jpg?raw=true" width="20%">
 
-##### BMW 삼성전시장 엘리베이터 내 광고 및 프로모션 컨텐츠 재생
+###### BMW 삼성전시장 엘리베이터 내 광고 및 프로모션 컨텐츠 재생
 <img src="https://github.com/bcchoi0202/bblog/blob/main/assets/projects/rainus/3.jpg?raw=true" width="20%">

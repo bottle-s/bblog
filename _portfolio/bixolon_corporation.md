@@ -37,14 +37,14 @@ Bixolon 모바일프린터를 이용한 결제 Application
 * 사용 기술 스택
   * <mark>Java</mark> <mark>SQLite</mark> <mark>Retrofit</mark>
 
-##### 메인 화면
+###### 메인 화면
 ![메인](https://user-images.githubusercontent.com/81198740/120916540-2675d900-c6e5-11eb-89d8-c081d6c573d7.png)
 
-##### 결제 진행 화면
+###### 결제 진행 화면
 ![결제](https://user-images.githubusercontent.com/81198740/120916538-24ac1580-c6e5-11eb-8ab0-02a2519ca17e.png)
 ![카드삽입](https://user-images.githubusercontent.com/81198740/120916542-27a70600-c6e5-11eb-83d0-561c772a0838.png)
 
-#### 결제 완료 화면
+##### 결제 완료 화면
 ![영수증](https://user-images.githubusercontent.com/81198740/120916541-270e6f80-c6e5-11eb-91ae-de55ac9dd3cf.png)
 
 
@@ -63,13 +63,13 @@ Bixolon 모바일프린터를 이용한 결제 Application
 * 사용 기술 스택
   * <mark>Java</mark> <mark>SQLite</mark>
 
-##### 메인 화면(고객요청, 자유양식)
+###### 메인 화면(고객요청, 자유양식)
 ![고객](https://user-images.githubusercontent.com/81198740/120915519-1824be80-c6df-11eb-95fc-097339427348.png) ![자유](https://user-images.githubusercontent.com/81198740/120915513-12c77400-c6df-11eb-882e-21bf0ddfe7cd.png)
 
-##### Local DB
+###### Local DB
 ![디비](https://user-images.githubusercontent.com/81198740/120915520-1bb84580-c6df-11eb-8fb1-c25d061aa330.png)
 
-##### App 설정 화면
+###### App 설정 화면
 ![설정](https://user-images.githubusercontent.com/81198740/120915524-1d820900-c6df-11eb-91a5-a7b2b3ef1241.png)
 
 
@@ -88,16 +88,16 @@ Web 환경에서 각종 설정 및 인쇄 컨텐츠 추가 등을 지원하는 P
 * 사용 기술 스택
   * <mark>Java</mark> <mark>SQLite</mark>
 
-##### 메인 화면(고객요청, 자유양식)
+###### 메인 화면(고객요청, 자유양식)
 ![image](https://user-images.githubusercontent.com/81198740/120916357-20332d00-c6e4-11eb-8d65-46f666878237.png)
 
-##### App 설정(브라우저, 프린터, 웹서버)
+###### App 설정(브라우저, 프린터, 웹서버)
 ![image](https://user-images.githubusercontent.com/81198740/120916365-275a3b00-c6e4-11eb-96eb-dfd540f845e2.png)
 
-##### 브라우저 설정
+###### 브라우저 설정
 ![image](https://user-images.githubusercontent.com/81198740/120916370-2c1eef00-c6e4-11eb-8841-f404c987a8d7.png) 
 
-##### 프린터 목록 및 추가
+###### 프린터 목록 및 추가
 ![image](https://user-images.githubusercontent.com/81198740/120916375-3214d000-c6e4-11eb-81c3-d01ba176ca24.png)
 
 
@@ -115,18 +115,18 @@ Web 환경에서 각종 설정 및 인쇄 컨텐츠 추가 등을 지원하는 P
 * 사용 기술 스택
   * <mark>Java</mark> <mark>C++</mark> 
 
-##### 메인 화면
+###### 메인 화면
 ![image](https://user-images.githubusercontent.com/81198740/120915809-ced56e80-c6e0-11eb-8442-de53eacb2b7e.png)
 
-##### 인쇄 라벨 디자인
+###### 인쇄 라벨 디자인
 <img src="https://play-lh.googleusercontent.com/PMjqQ8ZBTWbZtVhAohee55Ivg-BPqnazLe0cBJYwovntp-OcHiOZ6TR0XQpnOdlPxM2r=w2560-h1440-rw" width="200px">
 ![image](https://user-images.githubusercontent.com/81198740/120915823-e3b20200-c6e0-11eb-8e59-79b4ab5da91e.png) 
 ![image](https://user-images.githubusercontent.com/81198740/120915814-d39a2280-c6e0-11eb-87a7-edfca14e3f70.png)
 
-##### 라벨 저장
+###### 라벨 저장
 ![image](https://user-images.githubusercontent.com/81198740/120915833-eb71a680-c6e0-11eb-9998-a1ede504e820.png) 
 
-##### 프린터 설정
+###### 프린터 설정
 ![image](https://user-images.githubusercontent.com/81198740/120915838-edd40080-c6e0-11eb-9cf8-7fcaba7c1537.png)
 
 

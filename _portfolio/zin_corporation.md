@@ -39,16 +39,16 @@ SPC-Mobile-POS 프로젝트의 리뉴얼 버전
 * 사용 기술 스택
   * <mark>MiAPS</mark> <mark>Java</mark> <mark>Oracle</mark>
 
-##### 메인 화면
+###### 메인 화면
 ![nextpos_main](https://user-images.githubusercontent.com/81198740/120913499-8d3dc700-c6d2-11eb-83df-cebba5cda576.jpg)
 
-##### 메뉴 화면
+###### 메뉴 화면
 ![nextpos_menu](https://user-images.githubusercontent.com/81198740/120913473-6aabae00-c6d2-11eb-9908-773e0941453b.jpg)
 
-##### 상품 주문 화면
+###### 상품 주문 화면
 ![nextpos_order](https://user-images.githubusercontent.com/81198740/120913477-6c757180-c6d2-11eb-8d8d-2c871d5fbacd.jpg)
 
-##### 폐기 등록 화면
+###### 폐기 등록 화면
 ![nextpos_trash](https://user-images.githubusercontent.com/81198740/120913479-6d0e0800-c6d2-11eb-8021-d1def59b1066.jpg)
 
 
@@ -66,16 +66,16 @@ SPC-Mobile-POS 프로젝트의 리뉴얼 버전
 * 사용 기술 스택
   * <mark>Java</mark> <mark>log4j</mark> <mark>AChartEngine</mark> <mark>High Chart</mark> <mark>MVC</mark> <mark>ViewPager</mark>
 
-##### 메뉴 화면
+###### 메뉴 화면
 ![pb_tcr_menu](https://user-images.githubusercontent.com/81198740/120899693-ecb4bc00-c66b-11eb-8797-6acdb3ed505d.png)
 
-##### 손익 등록 및 컨설팅 화면
+###### 손익 등록 및 컨설팅 화면
 ![pb_tcr_consulting](https://user-images.githubusercontent.com/81198740/120899689-eaeaf880-c66b-11eb-921e-ceadda72548c.png) 
 
-##### 이미지 ViewPager 화면
+###### 이미지 ViewPager 화면
 ![pb_tcr_images](https://user-images.githubusercontent.com/81198740/120899690-ec1c2580-c66b-11eb-9604-e81d7ff2a294.png)
 
-##### 선택 상품별 점포 - 판매 수량/금액 지표 화면 
+###### 선택 상품별 점포 - 판매 수량/금액 지표 화면 
 ![pb_tcr_today_sales_detail](https://user-images.githubusercontent.com/81198740/120899694-ed4d5280-c66b-11eb-9b98-ff2fb92f527d.png) 
 
 
@@ -93,14 +93,14 @@ SPC 그룹 파리크라상 브랜드 소속 가맹점에서 사용되는 주문 
 * 사용 기술 스택
   * <mark>Java</mark> <mark>log4j</mark> <mark>SQLite</mark> <mark>ViewPager</mark>
 
-##### 메인 및 메뉴 화면
+###### 메인 및 메뉴 화면
 ![mpos_menu](https://user-images.githubusercontent.com/81198740/120898745-3353e780-c667-11eb-8cee-a4aed4d51a0f.jpg)
 
-##### 점포별 매출 화면
+###### 점포별 매출 화면
 ![mpos_team_stor](https://user-images.githubusercontent.com/81198740/120898749-3b138c00-c667-11eb-8b12-c0a85a776c94.jpg)
 
-##### 선택 상품별 매출 화면
+###### 선택 상품별 매출 화면
 ![mpos_item_sales](https://user-images.githubusercontent.com/81198740/120898755-423a9a00-c667-11eb-8751-f77fb47746d7.jpg)
 
-##### SV-점포 체크리스트 화면
+###### SV-점포 체크리스트 화면
 ![mpos_check](https://user-images.githubusercontent.com/81198740/120899405-88452d00-c66a-11eb-8487-59ac1a1abb82.jpg)
