@@ -2,7 +2,7 @@
 title: "Rainus"
 excerpt: "Rainus 프로젝트 상세 내역"
 header:
-  teaser: assets/projects/rainus/1.png
+  teaser: assets/projects/rainus/rainus_ci-removebg-preview.png
 classes: wide
 number: 3
 sidebar:
