@@ -2,7 +2,9 @@
 title: "Zin corp"
 excerpt: "Zin corp 프로젝트 상세 내역"
 header:
+  image: /assets/images/unsplash-gallery-image-1.jpg
   teaser: assets/projects/zin/1.png
+  
 classes: wide
 number: 1
 sidebar:
