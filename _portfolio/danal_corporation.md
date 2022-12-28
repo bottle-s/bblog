@@ -11,6 +11,29 @@ sidebar:
     text: "Android Developer"
   - title: "Responsibilities"
     text: "Reuters try PR stupid commenters should isn't a business model"
+
+gallery:
+- url: /assets/projects/danal/1.jpg
+  image_path: assets/projects/danal/1.jpg
+  alt: "placeholder image 1"
+- url: /assets/projects/danal/1.jpg
+  image_path: assets/projects/danal/1.jpg
+  alt: "placeholder image 2"
+- url: /assets/projects/danal/1.jpg
+  image_path: assets/projects/danal/1.jpg
+  alt: "placeholder image 3"
+- url: /assets/projects/danal/4.jpg
+  image_path: assets/projects/danal/4.jpg
+  alt: "placeholder image 4"
+- url: /assets/projects/danal/5.jpg
+  image_path: assets/projects/danal/5.jpg
+  alt: "placeholder image 5"
+- url: /assets/projects/danal/6.jpg
+  image_path: assets/projects/danal/6.jpg
+  alt: "placeholder image 6"
+- url: /assets/projects/danal/7.jpg
+  image_path: assets/projects/danal/7.jpg
+  alt: "placeholder image 7"
 ---
 
 [Danal](https://www.danalpay.com "다날")
