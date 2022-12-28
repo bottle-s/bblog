@@ -1,7 +1,9 @@
 ---
 title: "Danal"
-excerpt: "My portfolio in Danal Corp."
-thumbnail: /assets/image/projects/danal/1.png?raw=true
+excerpt: "Danal 프로젝트 상세 내역"
+header:
+  teaser: assets/image/projects/danal/1.png
+
 classes: wide
 number: 4
 sidebar:

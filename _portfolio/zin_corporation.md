@@ -1,9 +1,10 @@
 ---
 title: "Zin corp"
-excerpt: "Baz Boom design system including logo mark, website design, and branding applications."
+excerpt: "Zin corp 프로젝트 상세 내역"
+header:
+  teaser: assets/image/projects/zin/1.png
 classes: wide
 number: 1
-
 sidebar:
   - title: "Role"
     image: https://github.com/bcchoi0202/bblog/blob/main/assets/projects/zin/zin_ci-removebg-preview.png?raw=true

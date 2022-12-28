@@ -1,6 +1,8 @@
 ---
 title: "Rainus"
-excerpt: "Baz Boom design system including logo mark, website design, and branding applications."
+excerpt: "Rainus 프로젝트 상세 내역"
+header:
+  teaser: assets/image/projects/rainus/1.png
 classes: wide
 number: 3
 sidebar:
