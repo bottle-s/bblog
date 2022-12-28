@@ -81,3 +81,6 @@ gallery:
 
 #### 다모음 앱 결제(취소) 상세
 <img src="https://github.com/bcchoi0202/bblog/blob/main/assets/projects/danal/7.jpg?raw=true" width="20%">
+
+
+{% include gallery caption="This is a sample gallery to go along with this case study." %}
