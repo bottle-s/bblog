@@ -11,7 +11,7 @@ sidebar:
     image_alt: "logo"
     text: "Android Developer"
   - title: "주요 업무"
-    text: ""
+    text: "SPC Mobile POS 및 SV Cunsulting App 개발"
 ---
 
 
