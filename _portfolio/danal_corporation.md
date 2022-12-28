@@ -10,30 +10,7 @@ sidebar:
     image_alt: "logo"
     text: "Android Developer"
   - title: "Responsibilities"
-    text: "Reuters try PR stupid commenters should isn't a business model"
-
-gallery:
-- url: /assets/projects/danal/1.jpg
-  image_path: assets/projects/danal/1.jpg
-  alt: "placeholder image 1"
-- url: /assets/projects/danal/1.jpg
-  image_path: assets/projects/danal/1.jpg
-  alt: "placeholder image 2"
-- url: /assets/projects/danal/1.jpg
-  image_path: assets/projects/danal/1.jpg
-  alt: "placeholder image 3"
-- url: /assets/projects/danal/4.jpg
-  image_path: assets/projects/danal/4.jpg
-  alt: "placeholder image 4"
-- url: /assets/projects/danal/5.jpg
-  image_path: assets/projects/danal/5.jpg
-  alt: "placeholder image 5"
-- url: /assets/projects/danal/6.jpg
-  image_path: assets/projects/danal/6.jpg
-  alt: "placeholder image 6"
-- url: /assets/projects/danal/7.jpg
-  image_path: assets/projects/danal/7.jpg
-  alt: "placeholder image 7"
+    text: "신규 기능 추가 및 유지보수, Refactoring"
 ---
 
 [Danal](https://www.danalpay.com "다날")
@@ -41,9 +18,10 @@ gallery:
 - 포지션 : Android Developer
 - 근무부서 : 다모음팀
 - 직급 : 과장
-- 개발인원 : 2명 
+- 개발인원 : 6명 (Android 2, iOS 2, Back-end 2) 
 
-#### 1. Damoum App 서비스 소개
+#### 담당 프로젝트  
+##### 1. Damoum App 서비스 소개  
  Danal 통합 결제 서비스 (휴대폰 및 페이코인 결제 / 포인트 충전 및 결제 / 헌금 계좌이체 / 카드 발급 및 관리 등)
   - 기간 : 2022.03 ~ 현재
   - 역할 : 신규 기능 추가 및 유지보수, Refactoring
@@ -64,23 +42,20 @@ gallery:
   * 사용 기술 스택  
     * <mark>Kotlin</mark> <mark>Kotlin DSL</mark> <mark>Retrofit</mark> <mark>Glide</mark> <mark>rxJava</mark> <mark>LiveData</mark> <mark>View/DataBinding</mark> <mark>Jetpack AAC</mark> <mark>Jetpack Compose</mark> <mark>Hilt</mark> <mark>MVVM</mark> <mark>Firebase</mark> <mark>AppsFlyer</mark>
 
-#### 전체 프로젝트 구조도
+##### 전체 프로젝트 구조도
 <img src = "https://user-images.githubusercontent.com/79304650/190574117-7981a179-188d-496d-8f7a-113d196dad02.png" width="288px" height="512px" />
 
 <br>
 
-#### 다모음 앱 메인 (등록 결제 수단)
+##### 다모음 앱 메인 (등록 결제 수단)
 <img src="https://github.com/bcchoi0202/bblog/blob/main/assets/projects/danal/1.jpg?raw=true" width="20%"> <img src="https://github.com/bcchoi0202/bblog/blob/main/assets/projects/danal/2.jpg?raw=true" width="20%"> <img src="https://github.com/bcchoi0202/bblog/blob/main/assets/projects/danal/3.jpg?raw=true" width="20%">
 
 <br>
 
-#### 다모음 앱 결제(취소) 내역 및 포인트 충전
+# 다모음 앱 결제(취소) 내역 및 포인트 충전
 <img src="https://github.com/bcchoi0202/bblog/blob/main/assets/projects/danal/4.jpg?raw=true" width="20%"> <img src="https://github.com/bcchoi0202/bblog/blob/main/assets/projects/danal/5.jpg?raw=true" width="20%"> <img src="https://github.com/bcchoi0202/bblog/blob/main/assets/projects/danal/6.jpg?raw=true" width="20%"> 
 
 <br>
 
-#### 다모음 앱 결제(취소) 상세
+##### 다모음 앱 결제(취소) 상세
 <img src="https://github.com/bcchoi0202/bblog/blob/main/assets/projects/danal/7.jpg?raw=true" width="20%">
-
-
-{% include gallery caption="This is a sample gallery to go along with this case study." %}

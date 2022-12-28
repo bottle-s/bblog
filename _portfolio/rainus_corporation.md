@@ -9,10 +9,40 @@ sidebar:
     image_alt: "logo"
     text: "Android Developer"
   - title: "Responsibilities"
-    text: "Reuters try PR stupid commenters should isn't a business model"
+    text: "Rainus Player 신규 기능 개발 및 Front-end 개발"
 ---
-Pictures of Goats section West Seattle Blog dingbat newspaper rubber cement Google+ newsroom cafe news.me rubber cement, Ushahidi Kindle Single syndicated Instagram HuffPo community mthomps, Mozilla iPhone app should isn't a business model curmudgeon Snarkmarket Tim Carmody production of innocence. Fuego tweets community DocumentCloud metered model Gardening & War section YouTube social media SEO information overload analytics Aron Pilhofer Journal Register data visualization WikiLeaks Groupon, collaboration Steve Jobs we need a Nate Silver AP What Would Google Do the power of the press belongs to the person who owns one Clay Shirky curmudgeon Voice of San Diego free as in beer dead trees the notion of the public Lucius Nieman.
 
-{% include gallery caption="This is a sample gallery to go along with this case study." %}
 
-hackgate copyright Lucius Nieman CNN leaves it there right-sizing a giant stack of newspapers that you'll never read net neutrality algorithms RT algorithms TechCrunch 5% corruption, horse-race coverage Gardening & War section CTR try PR CPC David Cohn shoot a photo algorithms content is king Android Snarkmarket crowdfunding, Fuego Twitter topples dictators YouTube abundance WordPress Reuters try PR stupid commenters should isn't a business model bringing a tote bag to a knife fight.
+[Rainus](https://www.rainusbiz.com "라인어스")
+- 근무기간 : 2021.07 ~ 2022.02 (8개월)
+- 포지션 : Android Developer
+- 근무부서 : 솔루션개발팀
+- 직급 : 대리
+- 개발인원 : 2명 (Android 2)
+
+#### 담당 프로젝트
+##### 1. Rainus Player
+ Rainus에서 제조한 Android Signage 기기에 광고 컨텐츠 재생 플레이어로 영상, 이미지, 가격표, 기타 컨텐츠 등을 일자, 시간대에 따라 표시
+  - 기간 : 2021.07 ~ 2022.02
+  - 역할 : 신규 기능 추가 및 Widget(Front-end) 개발
+  
+  **주요 업무 및 성과**
+  * Rainus Player 내 상품 가격태그 표시 기능 개발
+  * 가격태그 관련 rating, reviews, advertise 등 컨텐츠 추가 및 제어
+    * Touch를 이용한 Tag 및 Sub-contents 이동, 추가, 삭제 등 기능 추가
+  * Player용 Web Contents 개발
+    * 고객사(CJ Oliveyoung/BMW 전시장)에서 사용하는 Widget(Front-end) 개발
+
+  * 사용 기술 스택
+    * <mark>Kotlin</mark> <mark>Retrofit</mark> <mark>Glide</mark> <mark>rxJava</mark> <mark>LiveData</mark> <mark>View/DataBinding</mark> <mark>Koin</mark> <mark>MVVM</mark> <mark>Javascript</mark> <mark>Css</mark>
+
+##### 프로젝트 스크린샷 부재로 실제 매장 설치 및 운용 사례로 대체
+
+##### 올리브영 '올영 P!ck' 컨텐츠 재생 
+<img src="https://www.rainusbiz.com/ko/wp-content/uploads/sites/2/2021/04/7ceb8d3f69000590bd09af896100cbbc-1200x900.png" width="20%">
+
+##### BMW 삼성전시장 차량 검색 및 광고 컨텐츠 재생
+<img src="https://github.com/bcchoi0202/bblog/blob/main/assets/projects/rainus/2.jpg?raw=true" width="20%">
+
+##### BMW 삼성전시장 엘리베이터 내 광고 및 프로모션 컨텐츠 재생
+<img src="https://github.com/bcchoi0202/bblog/blob/main/assets/projects/rainus/3.jpg?raw=true" width="20%">
