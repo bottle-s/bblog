@@ -1,5 +1,6 @@
 ---
 title: "modern-resume-theme: github page 이력서 만들기 (feat. jekyll, modern-resume-theme)"
+classes: wide
 categories:
   - jekyll-theme
 tags:
@@ -23,7 +24,7 @@ Android 개발자 이력서 작성을 위하여 github page를 만들기로 결�
 간략히 순서가 나와있는데, 간단히 얘기하면 theme 소스를 다운받아서 내 github page repository에 push 하는 것이다.  
 
 처음에는 모든 폴더를 받아서 commit & push 했지만, 모두 다 할필요는 없고 아래 스크린샷에 포함된 폴더 및 파일만 업로드 해도 된다.  
-![img_1.png](assets/image/tree.png)  
+![img_1.png](assets/image/tree.png?raw=true)  
 <br>
 위의 tree 대로 푸시를 하고 일정시간 기다린 뒤 github page를 새로고침 해보면 나면 테마가 적용된 페이지가 보인다.  
 
