@@ -26,9 +26,9 @@ classes: wide
 {% include paginator.html %}
 
 {% if paginator %}
-{% assign portfolios = paginator.portfolio %}
+{% assign portfolios = paginator.portfolios %}
 {% else %}
-{% assign portfolios = site.portfolio %}
+{% assign portfolios = site.portfolios %}
 {% endif %}
 
 {% assign entries_layout = page.entries_layout | default: 'list' %}

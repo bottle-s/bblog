@@ -295,7 +295,7 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: # true
+      comments: true
       share: true
       related: true
       show_date: true
@@ -303,8 +303,11 @@ defaults:
   # _portfolio
   - scope:
       path: ""
-      type: portfolio
+      type: portfolios
     values:
       layout: single
       author_profile: true
+      read_time: true
       share: false
+      related: true
+      show_date: true
