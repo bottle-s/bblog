@@ -303,7 +303,7 @@ defaults:
   # _portfolio
   - scope:
       path: ""
-      type: portfolios
+      type: portfolio
     values:
       layout: single
       author_profile: true
