@@ -15,7 +15,7 @@ classes: wide
 
 {% assign entries_layout = page.entries_layout | default: 'list' %}
 <div class="entries-{{ entries_layout }}" style="width: 100%">
-  {% for post in portfolios %}
+  {% for portfolio in portfolios %}
     {% include archive-single.html type=entries_layout %}
   {% endfor %}
 </div>
