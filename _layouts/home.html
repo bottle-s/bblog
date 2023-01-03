@@ -20,9 +20,4 @@ classes: wide
   {% endfor %}
 </div>
 
-<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].title_portfolio | default: "Portfolios" }}</h3>
-<div class="entries-{{ entries_layout }}" style="width: 100%">
-  {% include documents-collection.html collection=page.collection sort_by=page.sort_by sort_order=page.sort_order type=entries_layout %}
-</div>
-
 {% include paginator.html %}
