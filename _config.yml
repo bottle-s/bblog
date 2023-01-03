@@ -21,12 +21,12 @@ subtitle                 : "이것저것 끄적끄적✍"
 name                     : "최병철"
 description              : "생각나는것 하나씩 끄적끄적 적어가는 블로그"
 url                      : "https://bcchoi0202.github.io"
-baseurl                  : "/bblog"
+baseurl                  : "/bblog/portfolio"
 repository               : "bcchoi0202/bblog"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : " " # overrides the website title displayed in the masthead, use " " for no title
-# breadcrumbs            : false # true, false (default)
+#breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
