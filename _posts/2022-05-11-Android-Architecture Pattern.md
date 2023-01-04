@@ -2,11 +2,11 @@
 title: "Android, Architecture Pattern"
 classes: wide
 categories:
-- Android
-  tags:
-- Android
-- Design Pattern
-- Architecture Pattern
+  - Android
+tags:
+  - Android
+  - Design Pattern
+  - Architecture Pattern
 ---
 기본적으로, 프로젝트 구조 설계 시에는 어떠한 Architecture Pattern을 적용할 것인지 검토하게 된다.  
 먼저, **Architecture Pattern이란 무엇인지**, 그리고 우리가 사용하는 **Android의 Architecture Pattern에는 어떠한 것이 있는지**, **현재는 무엇을 가장 많이 사용하는지**, 그리고 **왜 그런지**에 대해 간략히 알아보자.  

@@ -2,10 +2,10 @@
 title: "Android, Coroutine"
 classes: wide
 categories:
-- Android
-  tags:
-- Android
-- Coroutine
+  - Android
+tags:
+  - Android
+  - Coroutine
 ---
 
 Android에서는 꽤 오래전부터 rxJava 보다 Coroutine을 더 많이 사용하는 추세로 변해가고 있다.  
