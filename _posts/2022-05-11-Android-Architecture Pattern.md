@@ -36,7 +36,7 @@ categories:
      1.2) 흐름
      - UI코드와 Model 코드를 분리하고 이 둘을 처리하는 Controller 코드를 작성
      - Controller(사용자 이벤트 입력) -> Model(데이터 갱신) -> View(UI 업데이트)
-       ![MVC](../assets/posts/mvc.png)
+       ![MVC](/assets/posts/mvc.png)
 
      1.3) 장점
      - 하나의 Activity / Fragment 안에서 모두 작성하여 사용하니 개발이 빠르고, 직관적
@@ -55,7 +55,7 @@ categories:
      2.2) 흐름
      - View는 Model을, Model은 View를 서로 참조할 수 없도록 개발하며, 모든 것은 Presenter를 통해서만 주고받을 수 있도록 작성되어 있다.
      - View(사용자 이벤트 입력) -> Presenter(Model로 데이터 전달) -> Model(데이터 호출) -> Presenter(Model에서 데이터 수신) -> View(UI갱신)
-       ![MVP](../assets/posts/mvp.png)
+       ![MVP](/assets/posts/mvp.png)
 
      2.3) 장점
      - Model과 View를 분리하여 MVC 대비 코드가 깔끔하며 확장이 용이
@@ -71,7 +71,7 @@ categories:
      3.2) 흐름
      - Model은 아무것도 참조하지 않고 ViewModel은 Model을, View와 ViewModel은 의존관계가 없음
      - View(사용자 이벤트 입력) -> ViewModel -> Model -> ViewModel -> (Binding)xml
-     ![MVVM](../assets/posts/mvvm.png)
+     ![MVVM](/assets/posts/mvvm.png)
 
      3.3) 장점
      - 기존 MVP에서 View와 Presentor의 의존성이 높아지는 부분을 해소
@@ -82,7 +82,7 @@ categories:
   > MVI 란?
   > 요즘은 MVI라는 Model - View - Intent 개념이 자주 나오고 있다.
   > 결론적으로, MVI는 Architecture Pattern이라기 보다는 MVVM의 상태 문제와 부수효과를 어떻게 처리하느냐에 대해 다루는 패러다임이라고 볼 수 있을 것 같다.
-  > ![MVI](../assets/posts/mvi.png)
+  > ![MVI](/assets/posts/mvi.png)
   > **정의**
     - 행위가 단방향으로 이루어지며, 그 방향이 Cycle을 이루고 있는 Cycle.js 프레임워크에서 따왔으며, 기존 Architecture Pattern과는 매우 다르게 작동
     - MVVM의 문제라고 일컬어는 상태문제 및 부수효과 처리에 대한 해결책으로 제시 
