@@ -46,7 +46,7 @@ tags:
 ##### 1.2) 흐름
 - UI코드와 Model 코드를 분리하고 이 둘을 처리하는 Controller 코드를 작성
 - Controller(사용자 이벤트 입력) -> Model(데이터 갱신) -> View(UI 업데이트)  
- ![MVC]("https://github.com/bcchoi0202/bblog/blob/main/assets/posts/mvc.png?raw=true")
+ ![MVC](https://github.com/bcchoi0202/bblog/blob/main/assets/posts/mvc.png?raw=true)
 
 ##### 1.3) 장점
 - 하나의 Activity / Fragment 안에서 모두 작성하여 사용하니 개발이 빠르고, 직관적
@@ -65,7 +65,7 @@ tags:
 ##### 2.2) 흐름
 - View는 Model을, Model은 View를 서로 참조할 수 없도록 개발하며, 모든 것은 Presenter를 통해서만 주고받을 수 있도록 작성되어 있다.
 - View(사용자 이벤트 입력) -> Presenter(Model로 데이터 전달) -> Model(데이터 호출) -> Presenter(Model에서 데이터 수신) -> View(UI갱신)  
- ![MVP]("https://github.com/bcchoi0202/bblog/blob/main/assets/posts/mvp.png?raw=true")
+ ![MVP](https://github.com/bcchoi0202/bblog/blob/main/assets/posts/mvp.png?raw=true)
 
 ##### 2.3) 장점
 - Model과 View를 분리하여 MVC 대비 코드가 깔끔하며 확장이 용이
@@ -82,7 +82,7 @@ tags:
 - Model은 아무것도 참조하지 않고 ViewModel은 Model을, View와 ViewModel은 의존관계가 없음
 - View(사용자 이벤트 입력) -> ViewModel -> Model -> ViewModel -> (Binding)xml
 
-![MVVM]("https://github.com/bcchoi0202/bblog/blob/main/assets/posts/mvvm.png?raw=true")
+![MVVM](https://github.com/bcchoi0202/bblog/blob/main/assets/posts/mvvm.png?raw=true)
 
 ##### 3.3) 장점
 - 기존 MVP에서 View와 Presentor의 의존성이 높아지는 부분을 해소
@@ -106,7 +106,7 @@ tags:
 ##### 덧-2) 흐름
 - View에서 Event가 입력되면 Intent로 전달하고 Intent에서는 입력된 Event를 기준으로 Model을 변경하며, Model에서는 데이터 및 View의 상태를 변경한다.
 
-![MVI]("https://github.com/bcchoi0202/bblog/blob/main/assets/posts/mvi.png?raw=true")
+![MVI](https://github.com/bcchoi0202/bblog/blob/main/assets/posts/mvi.png?raw=true)
 
 간략히 알아보았지만, 결국 MVI란 기존의 Architecture Pattern에 View의 상태처리와 Side Effect(Toast, Snackbar 등)를 함께 제어하여 문제가 발생하지 않도록 처리하는 패러다임인 것으로 볼 수 있겠다.
 
