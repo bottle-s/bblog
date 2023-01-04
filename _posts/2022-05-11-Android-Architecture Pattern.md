@@ -99,7 +99,7 @@ tags:
 ##### 덧-2) 흐름
 - View에서 Event가 입력되면 Intent로 전달하고 Intent에서는 입력된 Event를 기준으로 Model을 변경하며, Model에서는 데이터 및 View의 상태를 변경한다.
 
-![MVI](/assets/posts/mvi.png)
+![MVI](assets/posts/mvi.png)
 
 간략히 알아보았지만, 결국 MVI란 기존의 Architecture Pattern에 View의 상태처리와 Side Effect(Toast, Snackbar 등)를 함께 제어하여 문제가 발생하지 않도록 처리하는 패러다임인 것으로 볼 수 있겠다.
 
