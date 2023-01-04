@@ -9,10 +9,10 @@ tags:
 ---
 
 ### 1. 일반적인 Clean-Architecture의 개념 설명을 위한 계층도
-   ![img.png](../assets/posts/clean-architecture.png)
+   ![clean-architecture](https://github.com/bcchoi0202/bblog/blob/main/assets/posts/clean-architecture.png?raw=true)
 
 ### 2. Android에서의 Clean-Architecture 개념 설명을 위한 계층도
-   ![img.png](../assets/posts/clean-architecture-android.png)   
+  ![clean-architecture-android](https://github.com/bcchoi0202/bblog/blob/main/assets/posts/clean-architecture-android?raw=true)
 
 ### 3. Clean-Architecture란 무엇인가
   - 계층을 크게 나누어서 관심사를 분리하고, 분리된 각 클래스가 한가지 역할만 할 수 있도록 구현하는 방식  
