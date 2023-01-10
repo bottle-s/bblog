@@ -19,7 +19,7 @@ Google Android Developer 페이지에서는 아래와 같이 소개하고 있다
 
 Composable 범위에서 suspend function을 실행한다는 의미인데, ToolTip을 보면 조금 더 상세한 내용이 기술되어 있다.
 
-![img.png](../assets/posts/launchedeffect.png)
+[![img.png](../assets/posts/launchedeffect.png)](https://github.com/bcchoi0202/bblog/blob/main/assets/posts/launchedeffect.png?raw=true)
 
 툴팁 내용을 간략히 해석해보면
 >1. Composition 시 CoroutineContext 블록을 실행한다.
