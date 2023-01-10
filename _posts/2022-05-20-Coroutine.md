@@ -12,21 +12,20 @@ Android에서는 꽤 오래전부터 rxJava 보다 Coroutine을 더 많이 사�
 Coroutine이란 무엇인지와 종류, 특징, 그리고 어떻게 사용하는지에 대하여 간략하게 적어보려 한다.  
 또한 추가적으로 rx와의 간단한 비교도 함께 해볼 예정이다.  
 
-1. Coroutine 이란?
+1. Coroutine 이란?  
   1) Coroutine의 역사
     - 1958년부터 만들어진 용어로, 협력을 뜻하는 co와 routine의 합성어
     - Assembly 프로그램부터 시작하여 C++, C#, Unity 등 여러곳에서 이미 사용되고 있던 개념을 Android에 적합하게 변경하여 사용
 
-  2) Coroutine의 종류
-     (1) Stackful Coroutine
-     - 자신만의 Stack을 보유하고 있으며 호출한 코드로부터 독립적인 활동
-     - 할당된 Stack에 인수와 변수를 저장하여 Coroutine 내에서 호출되는 모든 함수의 실행 중단이 가능
+  2) Coroutine의 종류  
+     (1) Stackful Coroutine  
+        - 자신만의 Stack을 보유하고 있으며 호출한 코드로부터 독립적인 활동  
+        - 할당된 Stack에 인수와 변수를 저장하여 Coroutine 내에서 호출되는 모든 함수의 실행 중단이 가능  
 
      (2) Stackless Coroutine
-     - 자신만의 Stack을 보유하고 있지 않아 Context의 Stack을 사용하므로 호출한 Context(Caller)와 강하게 연결
-     - Stack이 없기 때문에 훨씬 적은 Memory를 사용
-     - Context의 수명만큼 유지되며 Context destroy 시 cancel
-     -
+        - 자신만의 Stack을 보유하고 있지 않아 Context의 Stack을 사용하므로 호출한 Context(Caller)와 강하게 연결
+        - Stack이 없기 때문에 훨씬 적은 Memory를 사용
+        - Context의 수명만큼 유지되며 Context destroy 시 cancel
 
 2. Coroutine의 특징
   1) 가독성
