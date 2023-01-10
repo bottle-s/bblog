@@ -6,6 +6,7 @@ categories:
 tags:
   - Android
   - Clean-Architecture
+comments: true
 ---
 
 #### 1. 일반적인 Clean-Architecture의 개념 설명을 위한 계층도

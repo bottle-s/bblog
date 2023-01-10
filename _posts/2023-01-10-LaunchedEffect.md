@@ -7,6 +7,7 @@ tags:
   - Android
   - Compose
   - LaunchedEffect
+comments: true
 ---
 
 ## [Jetpack Compose] Android LaunchedEffect 알아보기
