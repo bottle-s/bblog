@@ -52,5 +52,6 @@ LaunchedEffect에 key로 pagerState를 사용해서 pagerState가 변경이 있�
 
 여기서는 pagerState라는 key 하나만 사용하였지만, 필요에 따라 2개, 3개...n개까지도 사용 가능하다.
 
-여러개를 지정하면 LaunchedEffect에 지정된 key의 변경에 따라 작성한 Coroutine Block이 동작하니, 필요에 맞게 key와 block을 지정하여 사용할 수 있을 것이다.
-
+여러개를 지정하면 LaunchedEffect에 지정된 key의 변경에 따라 작성한 Coroutine Block이 동작하니, 필요에 맞게 key와 block을 지정하여 사용할 수 있을 것이다.  
+<br>
+**마지막으로, key값을 상수로 사용하면 Composition 될 때 1회만 동작하게 된다.**
