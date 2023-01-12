@@ -73,5 +73,10 @@ LaunchedEffect에 key로 pagerState를 사용해서 pagerState가 변경이 있�
 <div class="kotlin-playground" theme="darcula">
   fun main() {
     val name = "stranger"        // Declare your first variable
+    println("Hi, $name!")        // ...and use it!
+    print("Current count:")
+    for (i in 0..10) {           // Loop over a range from 0 to 10
+      print(" $i")
+    }
   }
 </div>
