@@ -9,6 +9,7 @@ tags:
   - LaunchedEffect
 comments: true
 ---
+<script src="https://unpkg.com/kotlin-playground@1" data-selector=".kotlin-playground"></script>
 
 ## [Jetpack Compose] Android LaunchedEffect 알아보기
 최근 UI를 모두 Compose로 개발하면서 자주 사용하지만 어렴풋이 알고 사용해왔던 `LaunchedEffect`에 대해서 파헤쳐보려 한다.
