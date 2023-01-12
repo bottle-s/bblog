@@ -63,11 +63,12 @@ LaunchedEffect에 key로 pagerState를 사용해서 pagerState가 변경이 있�
 <br>
 
 
-잠시 테스트 코드  
+잠시 kotlin playground 추가 테스트  
 
 <br>
 <br>
 
+{%
 <div class="kotlin-playground" theme="darcula">
   fun main() {
     val name = "stranger"        // Declare your first variable
@@ -78,3 +79,4 @@ LaunchedEffect에 key로 pagerState를 사용해서 pagerState가 변경이 있�
     }
   }
 </div>
+%}
