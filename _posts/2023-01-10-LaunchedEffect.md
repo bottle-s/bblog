@@ -9,7 +9,7 @@ tags:
   - LaunchedEffect
 comments: true
 ---
-<script src="https://unpkg.com/kotlin-playground@1" data-selector=".kotlin-playground"></script>
+
 
 ## [Jetpack Compose] Android LaunchedEffect 알아보기
 최근 UI를 모두 Compose로 개발하면서 자주 사용하지만 어렴풋이 알고 사용해왔던 `LaunchedEffect`에 대해서 파헤쳐보려 한다.
@@ -57,26 +57,3 @@ LaunchedEffect에 key로 pagerState를 사용해서 pagerState가 변경이 있�
 여러개를 지정하면 LaunchedEffect에 지정된 key의 변경에 따라 작성한 Coroutine Block이 동작하니, 필요에 맞게 key와 block을 지정하여 사용할 수 있을 것이다.  
 <br>
 **마지막으로, key값을 상수로 사용하면 Composition 될 때 1회만 동작하게 된다.**
-
-
-<br>
-<br>
-<br>
-
-
-잠시 kotlin playground 추가 테스트  
-
-<br>
-<br>
-
-
-<div class="kotlin-playground" theme="darcula">
-  fun main() {
-    val name = "stranger"        // Declare your first variable
-    println("Hi, $name!")        // ...and use it!
-    print("Current count:")
-    for (i in 0..10) {           // Loop over a range from 0 to 10
-      print(" $i")
-    }
-  }
-</div>
