@@ -2,8 +2,8 @@
 main:
   - title: "About Me"
     url: https://bcchoi0202.github.io/r/
-#  - title: "Posts"
-#    url: /categories/
+  - title: "Posts"
+    url: /categories/
   - title: "Portfolio"
     url: /portfolio/
   
