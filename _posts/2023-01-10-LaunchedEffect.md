@@ -16,7 +16,7 @@ comments: true
 
 ### LaunchedEffect란?
 Google Android Developer 페이지에서는 아래와 같이 소개하고 있다.  
-`LaunchedEffect: run suspend functions in the scope of a composable`
+>LaunchedEffect: run suspend functions in the scope of a composable
 
 Composable 범위에서 suspend function을 실행한다는 의미인데, ToolTip을 보면 조금 더 상세한 내용이 기술되어 있다.
 
