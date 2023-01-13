@@ -2,11 +2,11 @@
 title: "Jekyll, Kotlin Playground 넣기"
 classes: wide
 categories:
-- Jekyll
-  tags:
-- Jekyll
-- Kotlin Playground
-  comments: true
+  - Jekyll
+tags:
+  - Jekyll
+  - Kotlin Playground
+comments: true
 ---
 
 블로그 포스팅을 하면서 Code 블럭을 직접 돌려볼 수 있으면 좋겠다는 생각이 들어서 찾아보았다.
