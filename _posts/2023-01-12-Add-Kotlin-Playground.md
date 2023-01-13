@@ -66,12 +66,24 @@ comments: true
 하고 결과가 나온다.
 
 추가적으로, 기본 테마는 밝은색이다. 색을 어둡게 바꾸고 싶다면  theme="darcula" 를 div 태그 안에 넣어서 아래와 같이 사용 가능하다.
+또한, import 를 통해 여러가지 기능들을 테스트 하는데에 용이할 것으로 생각된다.
 
 <div class="kotlin-playground" theme="darcula">
   import kotlinx.coroutines.*
-  fun main() = runBlocking {
-    delay(1000)
-    println("짜자잔")
+  import kotlinx.coroutines.flow.*
+  fun main() {
+      val str = "Flow emit() 테스트하면 이렇게 나옵니다!!"
+      CoroutineScope(Dispatchers.Default).launch {
+          emitText(str).collect {
+              print("$it")
+          }
+      } 
+  }
+  
+  private suspend fun emitText(str: String) = flow {
+    str.forEach {
+      emit("$it")
+    }
   }
 </div>
 
