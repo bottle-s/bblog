@@ -2,7 +2,7 @@
 title: "Jekyll, Kotlin Playground 넣기"
 classes: wide
 categories:
-  - Jekyll
+  - jekyll
 tags:
   - Jekyll
   - Kotlin Playground
