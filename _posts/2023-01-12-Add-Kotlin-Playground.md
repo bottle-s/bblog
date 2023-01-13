@@ -15,7 +15,7 @@ comments: true
 현재 blog는 .md 파일, 즉 Mark-down 언어로 포스트를 작성하기 때문에 html 태그를 어떻게 넣어야 하는가를 고민했다.  
 검색을 하다보니, 어느 블로그에서는 hexo tag plugin을 넣어야 한다는 포스트도 있었고, 또 다른 블로그에서는 liquid 문법으로 써야한다는 포스트도 있었다.  
 
-결론적으로는 kotlin playground의 script를 추가하고, kotlin-playground class로 만들어진 div 태그를 작성하면 되는 것이었다.
+결론적으로는 kotlin playground의 script를 추가하고, kotlin-playground class로 만들어진 div 태그를 작성하면 되는 것이었다.  
 
 아래는 sample 게시물이다.
 
@@ -25,9 +25,8 @@ comments: true
   fun main() {
     val name = "stranger"        // Declare your first variable
     println("Hi, $name!")        // ...and use it!
-    print("Current count:")
     for (i in 0..10) {           // Loop over a range from 0 to 10
-      print(" $i")
+      print("Current count: $i")
     }
   }
 </div>
@@ -49,9 +48,9 @@ comments: true
 
 <br>
 
-짠! 하고 실행 가능한 코드블럭이 추가된다.
-여러개의 코드블럭을 추가하고 싶다면, script는 최초에 한번만 추가하면 되고, 그 이후에는 div 태그로 이루어진 코드블럭만 작성해주면 된다. 
-그렇게 추가한 코드블럭 우측 상단의 플레이 버튼을 눌러주게되면... 
+짠! 하고 실행 가능한 코드블럭이 추가된다.  
+여러개의 코드블럭을 추가하고 싶다면, script는 최초에 한번만 추가하면 되고, 그 이후에는 div 태그로 이루어진 코드블럭만 작성해주면 된다.   
+그렇게 추가한 코드블럭 우측 상단의 플레이 버튼을 눌러주게되면...   
 
 <div class="kotlin-playground">
   import kotlinx.coroutines.*
@@ -65,7 +64,7 @@ comments: true
 
 하고 결과가 나온다.
 
-추가적으로, 기본 테마는 밝은색이다. 색을 어둡게 바꾸고 싶다면  theme="darcula" 를 div 태그 안에 넣어서 아래와 같이 사용 가능하다.
+추가적으로, 기본 테마는 밝은색이다. 색을 어둡게 바꾸고 싶다면  theme="darcula" 를 div 태그 안에 넣어서 아래와 같이 사용 가능하다.  
 또한, import 를 통해 여러가지 기능들을 테스트 하는데에 용이할 것으로 생각된다.
 
 <div class="kotlin-playground" theme="darcula">
@@ -87,3 +86,4 @@ comments: true
   }
 </div>
 
+Coroutine 포스트와 Flow 포스트에 해당 기능을 넣어 예시를 추가하고 내용을 보완해야겠다.
