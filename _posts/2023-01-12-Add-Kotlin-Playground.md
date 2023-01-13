@@ -13,7 +13,7 @@ comments: true
 
 ## Jekyll blog에서 Kotlin Playground 사용하기
 현재 blog는 .md 파일, 즉 Mark-down 언어로 포스트를 작성하기 때문에 html 태그를 어떻게 넣어야 하는가를 고민했다.  
-검색을 하다보니, 어느 블로그에서는 hexo tag plugin을 넣어야 한다는 포스트도 있었고, 또 다른 블로그에서는 `{% ~~blah blah blah~~ %}` 의 형식으로 써야한다는 포스트도 있었다.  
+검색을 하다보니, 어느 블로그에서는 hexo tag plugin을 넣어야 한다는 포스트도 있었고, 또 다른 블로그에서는 liquid 문법으로 써야한다는 포스트도 있었다.  
 
 결론적으로는 kotlin playground의 script를 추가하고, kotlin-playground class로 만들어진 div 태그를 작성하면 되는 것이었다.
 
