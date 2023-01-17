@@ -14,7 +14,6 @@ sidebar:
     text: "Bixolon Printer(Label, Mobile) SDK 및 관련 App 개발"
 ---
 
-
 [Bixolon](https://www.bixolon.com "빅솔론")
 - 근무기간 : 2018.03 ~ 2021.03 (3년 1개월)
 - 포지션 : Android Developer
