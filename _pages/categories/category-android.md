@@ -3,8 +3,7 @@ layout: archive
 permalink: /categories/android
 title: "안드로이드"
 author_profile: true
-sidebar:
-  nav: "docs"
+sidebar_main: true
 ---
 
 {% assign posts = site.categories.Andriod %}

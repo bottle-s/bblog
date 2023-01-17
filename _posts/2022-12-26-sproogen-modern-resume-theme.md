@@ -2,7 +2,7 @@
 title: "modern-resume-theme: github page 이력서 만들기 (feat. jekyll, modern-resume-theme)"
 classes: wide
 categories:
-  - jekyll-theme
+  - Jekyll
 tags:
   - jekyll
   - theme
