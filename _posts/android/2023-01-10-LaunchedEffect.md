@@ -50,7 +50,7 @@ LaunchedEffect에 key로 pagerState를 사용해서 pagerState가 변경이 있�
 2. Horizontalpager Paging(1->2, 2->3, ...)
 3. pagerState의 currentPage 값이 변경되어 LaunchedEffect 내부 Coroutine Block 동작
 
-이렇게 동작하여 page가 변경되었을 경우, 다음 페이지의 데이터를 받아오는 작업을 수행하게 됩니다.
+이렇게 동작하여 page가 변경되었을 경우, 다음 페이지의 데이터를 받아오는 작업을 수행하게 된다.
 
 여기서는 pagerState라는 key 하나만 사용하였지만, 필요에 따라 2개, 3개...n개까지도 사용 가능하다.
 
