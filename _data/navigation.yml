@@ -8,16 +8,15 @@ main:
     url: /portfolio/
 
 docs:
-  - title: Posts
+
+  - title: "Android"
+    url: android/
+  - title: "Jekyll"
     children:
-      - title: "Android"
-        url: android/
-      - title: "Jekyll"
-        children:
-          - title: "Jekyll Theme"
-            url: jekylltheme/
-          - title: "Jekyll 블로그 만들기"
-            url: jekyllblog/
+      - title: "Jekyll Theme"
+        url: jekylltheme/
+      - title: "Jekyll 블로그 만들기"
+        url: jekyllblog/
   - title: "Algorithm"
     children:
       - title: "백준"
