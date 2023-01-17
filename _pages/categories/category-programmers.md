@@ -1,6 +1,6 @@
 ---
 layout: archive
-permalink: /categories/programmers
+permalink: categories/programmers
 title: "프로그래머스"
 author_profile: true
 sidebar_main: true

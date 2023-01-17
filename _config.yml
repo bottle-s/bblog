@@ -299,6 +299,7 @@ defaults:
       related: true
       show_date: true
       sidebar_main: true
+      mathjax: true
 
   # _portfolio
   - scope:

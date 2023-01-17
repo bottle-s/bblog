@@ -1,6 +1,6 @@
 ---
 layout: archive
-permalink: /categories/jekyll
+permalink: categories/jekyll
 title: "Jekyll"
 author_profile: true
 sidebar_main: true

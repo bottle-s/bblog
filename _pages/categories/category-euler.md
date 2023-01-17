@@ -1,6 +1,6 @@
 ---
 layout: archive
-permalink: /categories/euler
+permalink: categories/euler
 title: "프로젝트 오일러"
 author_profile: true
 sidebar_main: true

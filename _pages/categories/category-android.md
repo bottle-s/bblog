@@ -1,6 +1,6 @@
 ---
 layout: archive
-permalink: /categories/android
+permalink: categories/android
 title: "안드로이드"
 author_profile: true
 sidebar_main: true
