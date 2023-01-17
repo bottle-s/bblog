@@ -14,7 +14,7 @@
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Android" %}
-                        <li><a href="/categories/android" class="">안드로이드 ({{category[1].size}})</a></li>
+                        <li><a href="/bblog/categories/android" class="">안드로이드 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
@@ -22,32 +22,32 @@
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Algorithm" %}
-                        <li><a href="/categories/programmers" class="">프로그래머스 ({{category[1].size}})</a></li>
+                        <li><a href="/bblog/categories/programmers" class="">프로그래머스 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Programmers" %}
-                        <li><a href="/categories/backjun" class="">백준 ({{category[1].size}})</a></li>
+                        <li><a href="/bblog/categories/backjun" class="">백준 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Programmers" %}
-                        <li><a href="/categories/euler" class="">프로젝트 오일러 ({{category[1].size}})</a></li>
+                        <li><a href="/bblog/categories/euler" class="">프로젝트 오일러 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
         <span class="nav__sub-title">Jekyll</span>
-                    <ul>
-                        {% for category in site.categories %}
-                            {% if category[0] == "Jekyll" %}
-                                <li><a href="/categories/jekyll" class="">지킬 블로그 ({{category[1].size}})</a></li>
-                            {% endif %}
-                        {% endfor %}
-                    </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Jekyll" %}
+                        <li><a href="/bblog/categories/jekyll" class="">지킬 블로그 ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
       </li>
   </ul>
 </nav>
