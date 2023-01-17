@@ -3,16 +3,19 @@ main:
   - title: "About Me"
     url: https://bcchoi0202.github.io/r/
   - title: Posts
+    url:
     children:
       - title: "Android"
         url: /android/
       - title: "Jekyll"
+        url:
         children:
           - title: Jekyll
             url: jekylltheme/
           - title: "Jekyll 블로그 만들기"
             url: jekyllblog/
       - title: Algorithm
+        url:
         children:
           - title: "백준"
             url: packjun/
