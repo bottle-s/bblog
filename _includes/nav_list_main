@@ -21,21 +21,21 @@
         <span class="nav__sub-title">Algorithm</span>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "Algorithm" %}
+                    {% if category[0] == "Programmers" %}
                         <li><a href="/bblog/categories/programmers" class="">프로그래머스 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "Programmers" %}
+                    {% if category[0] == "Backjun" %}
                         <li><a href="/bblog/categories/backjun" class="">백준 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "Programmers" %}
+                    {% if category[0] == "Euler" %}
                         <li><a href="/bblog/categories/euler" class="">프로젝트 오일러 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
