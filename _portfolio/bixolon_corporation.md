@@ -5,7 +5,6 @@ header:
   teaser: assets/projects/bixolon/bixolon_ci-removebg-preview.png
 classes: wide
 number: 2
-author_profile: true
 sidebar:
   - title: "역할"
     image: https://github.com/bcchoi0202/bblog/blob/main/assets/projects/bixolon/bixolon_ci-removebg-preview.png?raw=true
