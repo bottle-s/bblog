@@ -2,27 +2,8 @@
 main:
   - title: "About Me"
     url: https://bcchoi0202.github.io/r/
-  - title: Posts
-    url:
-    children:
-      - title: "Android"
-        url: /android/
-      - title: "Jekyll"
-        url:
-        children:
-          - title: Jekyll
-            url: jekylltheme/
-          - title: "Jekyll 블로그 만들기"
-            url: jekyllblog/
-      - title: Algorithm
-        url:
-        children:
-          - title: "백준"
-            url: packjun/
-          - title: "프로그래머스"
-            url: programmers/
-          - title: "프로젝트 오일러"
-            url: oiller/
+  - title: "Posts"
+    url: /categories/
   - title: "Portfolio"
     url: /portfolio/
 
