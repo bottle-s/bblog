@@ -1,0 +1,65 @@
+Coroutine
+왜 코루틴을 쓰는가
+
+이전에 쓰던 라이브러리에 문제점이 있던 것인가
+
+이전에 쓰던 라이브러리에 문제가 있었다면 그 라이브러리 내에서 해결할 수도 있지 않았는가
+
+light-weight-thread 라고 하는데 왜 그런지 이유를 알고 있는가, 실제 내부에서 어떤식으로 동작하는지 설명할 수 있는가
+
+
+Multi-module
+왜 멀티모듈을 사용했는가, 하나의 모듈에 작성해도 되지 않는가
+
+
+Compose
+선언형 UI란 무엇인가
+
+Contract 클래스를 썼는데 내부에 정의 할 수 있는 것들은 무엇이 있는가
+
+BaseViewModel 내부에서 initialState 등을 정의해서 Contract를 초기화 하는 등의 방법으로 사용했는데, 다른 방법은 없는가
+
+Contract 클래스를 꼭 사용해야 하는가
+
+
+DI
+koin을 써도 되는데 왜 꼭 hilt를 사용했는가
+
+ViewModelModule에서 Provide를 하는데 이게 꼭 필요한 것인가, ViewModel 클래스 내부에서 @Inject로 주입을 하면 viewModelModule에서 Provide를 하지 않아도 되지 않는가
+
+SingletonComponent로 인스톨 했는데 @Reusable 어노테이션은 왜 붙인 것인가, 어차피 중복되지 않는가
+
+Provide를 썼는데 꼭 Provide를 써야하는가, 다른 방법이 있지는 않은가
+
+DI를 왜 쓰는가, 꼭 써야하는가, stub 파일이 엄청 많이 생성이 되는데 성능상 오히려 문제가 되지 않는지
+
+viewModelModule Provide 시 factory 클래스 관련 확인 필요
+
+
+Other
+NetworkModule에서 네트워크 연결상태 체크를 넣는다면 어디에 넣을것인가
+
+DomainModule을 com.android.library로 작성하였는데 그 이유가 있는가, 왜 그렇게 썼는지 말해달라
+
+Repository pattern 사용 시 DomainModule에 Interface를 작성하고 DataModule에서 상속받아 구현을 했는데 왜 그렇게 하였는가
+
+
+면접 예상 질문 
+1. Coroutine Scope
+
+2. MVVM + DataBinding
+
+
+5. Clean Architecture
+
+7. Repository 패턴
+
+6. DI
+
+8. 고차원함수, 람다식
+
+9. 비동기
+
+10. git rebase
+
+11. Fragment간 데이터 전달 방법
