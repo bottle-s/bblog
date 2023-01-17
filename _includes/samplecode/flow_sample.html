@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <script src="https://unpkg.com/kotlin-playground@1" data-selector=".kotlin-playground"></script>
+</head>
+<body>
+
+<div class="kotlin-playground" theme="darcula">
+  import kotlinx.coroutines.*
+  import kotlinx.coroutines.flow.*
+  fun main() {
+  val stFlow = MutableStateFlow(0)
+  val shFlow = MutableSharedFlow<Int>(0)
+  CoroutineScope(Dispatchers.Default).launch {
+  launch {
+  stFlow.collect {
+  println("stateFlow : $it")
+  }
+  }
+
+  launch {
+  shFlow.collect {
+  println("sharedFlow : $it")
+  }
+  }
+  }
+
+  runBlocking {
+  arrayOf(0, 0, 0, 1, 1, 1, 2, 2, 2).forEach {
+  delay(100)
+  stFlow.emit(it)
+  shFlow.emit(it)
+  }
+  }
+  }
+</div>
+
+</body>
+</html>
