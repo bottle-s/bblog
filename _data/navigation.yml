@@ -7,26 +7,6 @@ main:
   - title: "Portfolio"
     url: /portfolio/
 
-docs:
-
-  - title: "Android"
-    url: android/
-  - title: "Jekyll"
-    children:
-      - title: "Jekyll Theme"
-        url: jekylltheme/
-      - title: "Jekyll 블로그 만들기"
-        url: jekyllblog/
-  - title: "Algorithm"
-    children:
-      - title: "백준"
-        url: packjun/
-      - title: "프로그래머스"
-        url: programmers/
-      - title: "프로젝트 오일러"
-        url: oiller/
-
-
 #  - title: "Sitemap"
 #    url: /sitemap/
 #  - title: "Quick-Start Guide"
