@@ -1,65 +1,172 @@
 Coroutine
-왜 코루틴을 쓰는가
+1. 왜 코루틴을 쓰는가
+ 개인적으로는, 그리고 사용하는 대부분의 사람들이 같을것이라고 감히 예상하건데, 두 가지의 이유가 있다.
+ 첫번째로는 가독성이고, 두 번째로는 성능이다.
+
+ 먼저 가독성측면에서 굉장히 우수하다는 장점이 있다. 예전에 사용했던 Thread는 물론이거니와 지금도 많이 사용하고있는 rxJava와 비교해봐도 단번에 알 수 있을 것이다.
+ 이것에 대해서는 출근 루틴으로 예를 많이 드는데, 같이 얘기해보겠다.
+ val 잠든 병철이 = person
+ 일어나기(잠든 병철이): 졸린 병철이
+ 씻기(졸린 병철이): 깨끗한 병철이
+ 출발하기(깨끗한 병철이): 바쁜 병철이
+ 버스타기(바쁜 병철이: Person): 조급한 병철이
+ 도착(조급한병철이: Person)
+
+그렇다면, 이 루틴을 callBack으로 작성하면 어떻게될까?
+depth가 출근 루틴에 필요한 갯수만큼 깊어지는 문제가 생긴다. 뿐만 아니라, 에러처리까지 생각하면 머리가 지끈지끈 아파올 것이다.
+
+그렇다면, rx를 사용했을때에는 어떻게 될까?
+잠든 병철이를 시작으로 flatMap을 반복적으로 호출하여 다음.. 다음.. 다음.. 의 순서대로 진행해 나갈 것이고, 에러처리도 한결 수월해질 것이다.
+나름 보기 좋지만, 아무래도 반복적으로 이루어지는 .flatMap 으로 읽기 불편하다.
+물론 Coroutine을 사용해보기 전이라면 뭐가 불편하다는거지.. 할 수 있다. 나 또한 그랬으니 말이다.
+
+하지만 Coroutine을 사용해보고는 이 생각이 달라졌다.
+
+정말 편하게 일반 코드짜듯이 짜면 된다.
+val 잠든 병철이 = person
+val 졸린 병철이 = 일어나기(잠든 병철이)
+val 깨끗한 병철이 = 씻기(졸린 병철이)
+...
+
+이런식으로 처리하면 되기 때문에 코드를 처음 보는 사람이 보더라도 한눈에 알아볼 수 있다.
+
+무튼, 가독성에 대한 부분은 이정도로 마무리 하고,
+
+두 번째로는 성능이 뛰어나다는 점이다.
+
+코루틴의 성능을 얘기하면 자연스럽게 따라나오는 것이 Light-Weight Thread 이다.
+가벼운 Thread라는 것인데, 왜 가벼운 것일까?
+
+컨텍스트 스위칭이 일어나지 않는게 가장 큰 이유일 것이다.
+
+Thread와 Coroutine은 모두 동시성을 보장한다.
+이 동시성을 보장하기 위해 Thread에서는 잦은 Context Switching이 발생한다.
+예를들어 task a, b가 각각의 쓰레드에 할당되었다면, 사용자에게는 동시에 실행되는 것 처럼 보이기 위하여 a와 b를 왔다갔다 하면서 실행한다.
+이 때, task a -> task b -> task a 와 같이 task를 변경할 때 발생하는 현상이 context switching이다.
+실행했던 task의 상태정보 등을 stack에 저장하고 다른 task의 상태정보를 사용하여 실행하고 를 반복하는 것이다.
+
+여기서 중요한 것은, task가 Thread에 올라가서 실행된다는 것이다.
+task가 Thread에 올라가서 실행되기 때문에 다른 작업을 실행하기 위해서는 Context Switching이 일어나는 것이다.
+
+하지만 Coroutine의 경우에는 jvm heap에 coroutine object 단위로 쌓이고 두 개의 coroutine이 실행이 되어도 하나의 쓰레드에서 실행될 수 있다는 것이다.
+그렇기 때문에 Context Switching의 비용이 최소화 된다고 볼 수 있다.
+
+그렇다고 해도 Coroutine scope를 변경하거나, 별도의 newCoroutineContext를 사용하면 context switching은 일어난다고 볼 수 있다.
+
 
 이전에 쓰던 라이브러리에 문제점이 있던 것인가
-
-이전에 쓰던 라이브러리에 문제가 있었다면 그 라이브러리 내에서 해결할 수도 있지 않았는가
-
-light-weight-thread 라고 하는데 왜 그런지 이유를 알고 있는가, 실제 내부에서 어떤식으로 동작하는지 설명할 수 있는가
-
+없음, 가독성이 가장 큰 이유
 
 Multi-module
 왜 멀티모듈을 사용했는가, 하나의 모듈에 작성해도 되지 않는가
+물론, 하나의 모듈에 작성해도 괜찮다. 하지만, 모듈간 의존성을 제거한다는게 늘 생각하고 있지 않으면 언젠가는 실수할 수 밖에 없다고 본다.
+애초에 그 실수를 일어나지 않도록 만들 수 있는게 클린아키텍처를 적용한 멀티모듈이다.
+각 모듈별 관심사를 분리하여 테스트에도 용이하고, 여러 프로젝트에서 사용 가능한 모듈은 별도의 모듈로 빼서 사용할 수도 있다.
 
 
 Compose
 선언형 UI란 무엇인가
+개념적으로 전체 화면을 그려놓고, 변경이 있는 부분만 재구성하는 것을 이야기 한다.
+기본적으로 View의 State라는 개념이 바탕이 되어, 해당 View의 State가 변경됨에 따라 재구성되는 UI이다.
 
 Contract 클래스를 썼는데 내부에 정의 할 수 있는 것들은 무엇이 있는가
+Effect, Event, State 세 가지로 보통 구분한다.
+Effect는 snackbar, toast 등을 노출하는의 작업을
+Event는 Compose UI에서 일어나는 이벤트를
+State는 전체적인 View의 상태를 얘기한다.
 
 BaseViewModel 내부에서 initialState 등을 정의해서 Contract를 초기화 하는 등의 방법으로 사용했는데, 다른 방법은 없는가
+개인적으로도 많이 고민하고 여기저기 많이 찾아보기도 했지만, 현재까지는 이보다 더 좋은 방법을 찾지는 못한 것 같다.
+꾸준히 고민하고 있고, 다른 사람들의 아이디어도 참고하고 있으니 더 좋은 방법을 제시해주시면 참고하겠다.
+
 
 Contract 클래스를 꼭 사용해야 하는가
-
+'꼭' Contract 클래스를 사용할 필요는 없다.
+다만, View의 State, Event, Effect의 상태를 관리하는 하나의 클래스가 있다면 viewmodel에서는 해당 상태만 관리해주면 되기때문에 더욱 간단해진다고 생각한다.
 
 DI
 koin을 써도 되는데 왜 꼭 hilt를 사용했는가
+최근까지도 koin을 사용해왔고, 정말 간단하면서 편리하다고 생각해왔다.
+다만, koin의 경우에는 컴파일타임에 에러를 검출하지 못하기 때문에, 의존성이 주입되는 시점에 가서야 Exception이 발생하게 된다.
+반면 Hilt의 경우에는 stub 파일을 컴파일타임에 만들고, 여기서 에러 검출이 가능하기 때문에 더욱 편리하다고 느껴진다.
+
+또한, Dagger의 경우에는 러닝커브가 굉장히 높은것으로 유명하다. 하지만 Hilt의 경우에는 Dagger를 쉽게 사용하기위해 나온 라이브러리이기 때문에 러닝커브가 그리 높지 않아 처음 사용하는 사람들도 조금만 공부하면 쉽게 사용할 수 있다고 생각한다.
+물론 일정 레벨까지만 쉬울 뿐, 그 이후는 깊게 공부하고 사용해야 한다는 점은 변하지 않는다.
 
 ViewModelModule에서 Provide를 하는데 이게 꼭 필요한 것인가, ViewModel 클래스 내부에서 @Inject로 주입을 하면 viewModelModule에서 Provide를 하지 않아도 되지 않는가
+ViewModelModule은 필요 없다. 잘못썼다.
 
 SingletonComponent로 인스톨 했는데 @Reusable 어노테이션은 왜 붙인 것인가, 어차피 중복되지 않는가
+SingletonComponent만 사용하면 된다.
+SingletonComponent는 항상 같은 인스턴스를 재사용한다. ApplicationScope에 생성되기 때문에 종료할때까지 메모리에 남아있는다.(application component scope)
+Reusable Annotation은 이미 생성한 인스턴스가 있으면 재사용하고, 없으면 생성해서 사용한다는 의미이다.
+인스턴스이기 때문에 GC에 의해 메모리에서 해제될 수 있으며 Component와는 관련이 없다.(non scope)
+따라서 항상 같은 인스턴스를 제공해야 한다면 singleton component를, 아니라면 reusable을 사용하면 된다.
 
 Provide를 썼는데 꼭 Provide를 써야하는가, 다른 방법이 있지는 않은가
+Binds를 쓸 수 있다. Binds는 abstract 클래스와 그 구현체를 리턴하는 방식으로 사용한다.
 
 DI를 왜 쓰는가, 꼭 써야하는가, stub 파일이 엄청 많이 생성이 되는데 성능상 오히려 문제가 되지 않는지
+'의존성을 주입한다' 라는 말은 정말 간단하게 느껴지지만, 코드로 만들게 되면 굉장히 많은 보일러 플레이트 코드를 직접 만들고 관리해야 한다.
+이러한 작업들을 간단하게 해주는 것이 DI 라이브러리이다.
+DI라이브러리는 위와 같은 stub 파일을 자동으로 생성해주기 때문에 오히려 성능상 이점이 있다.?
+
 
 viewModelModule Provide 시 factory 클래스 관련 확인 필요
 
 
 Other
 NetworkModule에서 네트워크 연결상태 체크를 넣는다면 어디에 넣을것인가
+네트워크 연결 상태 체크 인터셉터를 만들어서 okhttpclient에 addInterceptor로 넣을 것이다.
+
 
 DomainModule을 com.android.library로 작성하였는데 그 이유가 있는가, 왜 그렇게 썼는지 말해달라
+잘못씀
+순수자바/코틀린 코드로 만드는 것이 일반적이고, 어쩔 수 없는 경우에는 android library로 만든다.
 
 Repository pattern 사용 시 DomainModule에 Interface를 작성하고 DataModule에서 상속받아 구현을 했는데 왜 그렇게 하였는가
+repository pattern 자체가 의존성 역전의 법칙을 사용하여 domain layer에는 repository의 interface만 만들고, data layer에서 repository의 구현체를 만들어 주입하는 개념이다.
+이렇게 함으로써 비즈니스 로직은 캡슐화 할 수 있고, data layer와 domain layer간의 의존성을 최소화 할 수 있다.
 
 
-면접 예상 질문 
+
+면접 예상 질문
 1. Coroutine Scope
+suspend 함수를 사용할 수 있는 Coroutine Scope를 정의할 수 있다.
+CoroutineScope로 사용할 수도 있으며, 이를 상속받은 Global, Lifecycle, ViewModel, Supervisor scope 등 여러가지를 상황에 맞게 사용할 수 있다.
 
 2. MVVM + DataBinding
+model-view-viewModel 의 구조로 이루어진 아키텍쳐패턴으로, view에서 이벤트가 발생하면 viewModel의 비즈니스 로직을 호출하고, 호출된 비즈니스 로직은 Model에 데이터를 요청한다.
+Model은 요청받은 데이터를 반환하고 viewModel은 반환받은 데이터로 View를 업데이트한다.
+지금까지는 MVVM의 구조에 대해 말씀 드렸고, 이제 데이터 바인딩과의 결합에 대해서 이야기 해보겠다.
+예전에는 viewModel에서 받은 데이터를 View로 전달하여 viewBinding 혹은 findViewById 등을 통해 수신받은 데이터를 업데이트 해야 했으며, 보일러 플레이트 코드가 굉장히 많이 발생하였다.
+하지만 Databinding을 사용하면 View는 바인딩된 ViewModel을 통해 데이터를 실시간으로 업데이트 받게 된다.
+데이터의 업데이트를 자동화 할 수 있고, 가독성이 좋으며 코드의 양이 줄어든다는 장점이 있다.
 
 
 5. Clean Architecture
+presentation, domain, data layer로 구분지은 아키텍쳐의 개념이다.
+presentation layer는 UI와 ViewModel이 구현되어 있고,
+domain layer에는 비즈니스로직과 추상화된 repository가 정의되어 있으며,
+data layer에는 local/remote 통신 코드와 repository의 구현체가 정의되어 있다.
 
-7. Repository 패턴
+각각을 관심사별로 구분지어 의존성을 최소화 하였으며, 각각을 모듈단위로 분리하여 테스트에도 용이하다.
 
-6. DI
+//7. Repository 패턴
+
+//6. DI
 
 8. 고차원함수, 람다식
+고차함수란 함수의 파라미터로 함수를 받는 함수를 얘기한다.
+람다식은 함수의 선언 없이 파라미터만 명시하여 구현하는 방법을 얘기한다.
 
 9. 비동기
+rx, coroutine, callback...
 
 10. git rebase
 
 11. Fragment간 데이터 전달 방법
+
+왜 이직 ?
+
+자기소개?
