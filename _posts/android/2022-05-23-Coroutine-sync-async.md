@@ -2,11 +2,11 @@
 title: "Android, Coroutine 동기 / 비동기 처리"
 classes: wide
 categories:
-- Android
-  tags:
-- Android
-- Coroutine
-  comments: true
+  - Android
+tags:
+  - Android
+  - Coroutine
+comments: true
 ---
 
 Coroutine을 본격적으로 사용하기 전에 코루틴이 어떻게 해야 동기처리 되는지, 그리고 어떻게 해야 비동기 처리 되는지 알아보고자 한다.
