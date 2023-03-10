@@ -1,5 +1,5 @@
 ---
-title: "Android, Compose LaunchedEffect"
+title: "Android, DatePicker(아이템 3개 이상 보이게 설정하기)"
 classes: wide
 categories:
   - Android
@@ -79,5 +79,5 @@ DatePicker 생성자에 Mode를 설정하도록 되어있고, 따라가보면 Da
 
 단, 사용하게 되면 흔적은 조금 남겨주시길 바란다.
 
->여기는 소스코드
-> ![WheelSpinner.kt](https://github.com/bcchoi0202/bblog/blob/main/assets/posts/datepicker/WheelSpinner?raw=true)
+>여기는 소스코드  
+> ![WheelSpinner.kt](https://github.com/bcchoi0202/bblog/blob/main/assets/posts/datepicker/WheelSpinner.kt?raw=true)
