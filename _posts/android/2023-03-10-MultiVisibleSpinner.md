@@ -79,5 +79,4 @@ DatePicker 생성자에 Mode를 설정하도록 되어있고, 따라가보면 Da
 
 단, 사용하게 되면 흔적은 조금 남겨주시길 바란다.
 
-> 소스코드는 아래 링크를 통해서 확인하면 된다.
-> https://github.com/bcchoi0202/bblog/blob/main/assets/posts/datepicker/WheelSpinner.kt
+> [소스코드 확인하기](https://github.com/bcchoi0202/bblog/blob/main/assets/posts/datepicker/WheelSpinner.kt)
