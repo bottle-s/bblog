@@ -20,9 +20,9 @@ title_separator          : "|"
 subtitle                 : "이것저것 끄적끄적✍"
 name                     : "최병철"
 description              : "생각나는것 하나씩 끄적끄적 적어가는 블로그"
-url                      : "https://bcchoi0202.github.io/bblog"
+url                      : "https://bottle-s.github.io/bblog/"
 baseurl                  : "/bblog"
-repository               : "bcchoi0202/bblog"
+repository               : "bottle-s/bblog"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : " " # overrides the website title displayed in the masthead, use " " for no title
@@ -30,7 +30,7 @@ words_per_minute         : 200
 comments:
   provider               : "disqus" # , "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
   disqus:
-    shortname            : "bcchoi0202"
+    shortname            : "bottle-s"
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
@@ -122,7 +122,7 @@ author:
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/bcchoi0202"
+      url: "https://github.com/bottle-s"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/byungchul0202"
@@ -138,7 +138,7 @@ footer:
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/bcchoi0202"
+      url: "https://github.com/bottle-s"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
